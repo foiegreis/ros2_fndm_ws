@@ -1,0 +1,36 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_interface
+-- Install configuration: ""
+-- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ament_index/resource_index/package_run_dependencies/ros2_fndm_interface
+-- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ament_index/resource_index/parent_prefix_path/ros2_fndm_interface
+-- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/environment/ament_prefix_path.sh
+-- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/environment/ament_prefix_path.dsv
+-- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/environment/path.sh
+-- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/environment/path.dsv
+-- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/local_setup.bash
+-- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/local_setup.sh
+-- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/local_setup.zsh
+-- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/local_setup.dsv
+-- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/package.dsv
+-- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ament_index/resource_index/packages/ros2_fndm_interface
+-- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/cmake/ros2_fndm_interfaceConfig.cmake
+-- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/cmake/ros2_fndm_interfaceConfig-version.cmake
+-- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/package.xml

@@ -1,0 +1,17 @@
+<!-- xml_launch.xml -->
+
+<launch>
+
+    <!-- args that can be set from the command line or a default will be used -->
+    <arg name="param1" default="val1" />
+    <arg name="param2" default="val2" />
+
+    <!-- server node -->
+    <node pkg="" exec=""  />
+    <!-- client node -->
+    <node pkg="" exec="" >
+        <param name="param1" value="$(var param1)" />
+        <param name="param2" value="$(var param2)" />
+    </node>
+
+</launch>

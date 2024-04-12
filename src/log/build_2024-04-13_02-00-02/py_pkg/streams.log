@@ -1,0 +1,53 @@
+[2.501s] Invoking command in '/home/foiegreis/ros2_fndm_ws/src/py_pkg': PYTHONPATH=/home/foiegreis/ros2_fndm_ws/src/build/py_pkg/prefix_override:/home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_pkg build --build-base /home/foiegreis/ros2_fndm_ws/src/build/py_pkg/build install --record /home/foiegreis/ros2_fndm_ws/src/build/py_pkg/install.log --single-version-externally-managed
+[2.912s] running egg_info
+[2.912s] creating ../build/py_pkg/py_pkg.egg-info
+[2.913s] writing ../build/py_pkg/py_pkg.egg-info/PKG-INFO
+[2.913s] writing dependency_links to ../build/py_pkg/py_pkg.egg-info/dependency_links.txt
+[2.913s] writing entry points to ../build/py_pkg/py_pkg.egg-info/entry_points.txt
+[2.913s] writing requirements to ../build/py_pkg/py_pkg.egg-info/requires.txt
+[2.913s] writing top-level names to ../build/py_pkg/py_pkg.egg-info/top_level.txt
+[2.914s] writing manifest file '../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[2.917s] reading manifest file '../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[2.919s] writing manifest file '../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[2.919s] running build
+[2.921s] running build_py
+[2.921s] creating /home/foiegreis/ros2_fndm_ws/src/build/py_pkg/build
+[2.922s] creating /home/foiegreis/ros2_fndm_ws/src/build/py_pkg/build/lib
+[2.922s] creating /home/foiegreis/ros2_fndm_ws/src/build/py_pkg/build/lib/py_pkg
+[2.922s] copying py_pkg/__init__.py -> /home/foiegreis/ros2_fndm_ws/src/build/py_pkg/build/lib/py_pkg
+[2.922s] copying py_pkg/talker.py -> /home/foiegreis/ros2_fndm_ws/src/build/py_pkg/build/lib/py_pkg
+[2.923s] copying py_pkg/simple_node.py -> /home/foiegreis/ros2_fndm_ws/src/build/py_pkg/build/lib/py_pkg
+[2.923s] copying py_pkg/sum_server.py -> /home/foiegreis/ros2_fndm_ws/src/build/py_pkg/build/lib/py_pkg
+[2.923s] copying py_pkg/sum_client.py -> /home/foiegreis/ros2_fndm_ws/src/build/py_pkg/build/lib/py_pkg
+[2.924s] copying py_pkg/listener.py -> /home/foiegreis/ros2_fndm_ws/src/build/py_pkg/build/lib/py_pkg
+[2.924s] running install
+[2.924s] running install_lib
+[2.925s] creating /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg
+[2.925s] copying /home/foiegreis/ros2_fndm_ws/src/build/py_pkg/build/lib/py_pkg/__init__.py -> /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg
+[2.925s] copying /home/foiegreis/ros2_fndm_ws/src/build/py_pkg/build/lib/py_pkg/talker.py -> /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg
+[2.925s] copying /home/foiegreis/ros2_fndm_ws/src/build/py_pkg/build/lib/py_pkg/simple_node.py -> /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg
+[2.926s] copying /home/foiegreis/ros2_fndm_ws/src/build/py_pkg/build/lib/py_pkg/sum_server.py -> /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg
+[2.926s] copying /home/foiegreis/ros2_fndm_ws/src/build/py_pkg/build/lib/py_pkg/sum_client.py -> /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg
+[2.926s] copying /home/foiegreis/ros2_fndm_ws/src/build/py_pkg/build/lib/py_pkg/listener.py -> /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg
+[2.926s] byte-compiling /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg/__init__.py to __init__.cpython-310.pyc
+[2.926s] byte-compiling /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg/talker.py to talker.cpython-310.pyc
+[2.927s] byte-compiling /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg/simple_node.py to simple_node.cpython-310.pyc
+[2.927s] byte-compiling /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg/sum_server.py to sum_server.cpython-310.pyc
+[2.927s] byte-compiling /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg/sum_client.py to sum_client.cpython-310.pyc
+[2.927s] byte-compiling /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg/listener.py to listener.cpython-310.pyc
+[2.927s] running install_data
+[2.928s] creating /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/share/ament_index
+[2.928s] creating /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/share/ament_index/resource_index
+[2.928s] creating /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/share/ament_index/resource_index/packages
+[2.928s] copying resource/py_pkg -> /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/share/ament_index/resource_index/packages
+[2.929s] copying package.xml -> /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/share/py_pkg
+[2.929s] running install_egg_info
+[2.932s] Copying ../build/py_pkg/py_pkg.egg-info to /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg-0.0.0-py3.10.egg-info
+[2.933s] running install_scripts
+[2.968s] Installing listener_py script to /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/py_pkg
+[2.968s] Installing simple_node_py script to /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/py_pkg
+[2.968s] Installing sum_client_py script to /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/py_pkg
+[2.968s] Installing sum_server_py script to /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/py_pkg
+[2.968s] Installing talker_py script to /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/py_pkg
+[2.969s] writing list of installed files to '/home/foiegreis/ros2_fndm_ws/src/build/py_pkg/install.log'
+[3.123s] Invoked command in '/home/foiegreis/ros2_fndm_ws/src/py_pkg' returned '0': PYTHONPATH=/home/foiegreis/ros2_fndm_ws/src/build/py_pkg/prefix_override:/home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_pkg build --build-base /home/foiegreis/ros2_fndm_ws/src/build/py_pkg/build install --record /home/foiegreis/ros2_fndm_ws/src/build/py_pkg/install.log --single-version-externally-managed

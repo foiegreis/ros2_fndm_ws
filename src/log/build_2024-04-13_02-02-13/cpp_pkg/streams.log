@@ -1,0 +1,36 @@
+[0.640s] Invoking command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --build /home/foiegreis/ros2_fndm_ws/src/build/cpp_pkg -- -j12 -l12
+[1.192s] [35m[1mConsolidate compiler generated dependencies of target talker_cpp[0m
+[1.192s] [35m[1mConsolidate compiler generated dependencies of target listener_cpp[0m
+[1.192s] [35m[1mConsolidate compiler generated dependencies of target sum_server_cpp[0m
+[1.193s] [35m[1mConsolidate compiler generated dependencies of target sum_client_cpp[0m
+[1.193s] [35m[1mConsolidate compiler generated dependencies of target simple_node_cpp[0m
+[1.194s] [ 20%] Built target sum_client_cpp
+[1.194s] [ 40%] Built target talker_cpp
+[1.195s] [ 60%] Built target listener_cpp
+[1.195s] [ 80%] Built target sum_server_cpp
+[1.195s] [100%] Built target simple_node_cpp
+[1.198s] Invoked command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --build /home/foiegreis/ros2_fndm_ws/src/build/cpp_pkg -- -j12 -l12
+[1.247s] Invoking command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --install /home/foiegreis/ros2_fndm_ws/src/build/cpp_pkg
+[1.256s] -- Install configuration: ""
+[1.256s] -- Up-to-date: /home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/lib/cpp_pkg/simple_node_cpp
+[1.256s] -- Up-to-date: /home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/lib/cpp_pkg/talker_cpp
+[1.257s] -- Up-to-date: /home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/lib/cpp_pkg/listener_cpp
+[1.257s] -- Up-to-date: /home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/lib/cpp_pkg/sum_server_cpp
+[1.258s] -- Up-to-date: /home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/lib/cpp_pkg/sum_client_cpp
+[1.258s] -- Up-to-date: /home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_pkg
+[1.258s] -- Up-to-date: /home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_pkg
+[1.258s] -- Up-to-date: /home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.sh
+[1.259s] -- Up-to-date: /home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.dsv
+[1.259s] -- Up-to-date: /home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/environment/path.sh
+[1.259s] -- Up-to-date: /home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/environment/path.dsv
+[1.259s] -- Up-to-date: /home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/local_setup.bash
+[1.259s] -- Up-to-date: /home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/local_setup.sh
+[1.260s] -- Up-to-date: /home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/local_setup.zsh
+[1.260s] -- Up-to-date: /home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/local_setup.dsv
+[1.260s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/package.dsv
+[1.260s] -- Up-to-date: /home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/ament_index/resource_index/packages/cpp_pkg
+[1.261s] -- Up-to-date: /home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.261s] -- Up-to-date: /home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig.cmake
+[1.262s] -- Up-to-date: /home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig-version.cmake
+[1.262s] -- Up-to-date: /home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/package.xml
+[1.263s] Invoked command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --install /home/foiegreis/ros2_fndm_ws/src/build/cpp_pkg

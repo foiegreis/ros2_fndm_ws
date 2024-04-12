@@ -1,0 +1,33 @@
+[2.745s] Invoking command in '/home/foiegreis/ros2_fndm_ws/src/py_actions': PYTHONPATH=/home/foiegreis/ros2_fndm_ws/src/build/py_actions/prefix_override:/home/foiegreis/ros2_fndm_ws/src/install/py_actions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_actions build --build-base /home/foiegreis/ros2_fndm_ws/src/build/py_actions/build install --record /home/foiegreis/ros2_fndm_ws/src/build/py_actions/install.log --single-version-externally-managed
+[3.219s] running egg_info
+[3.221s] creating ../build/py_actions/py_actions.egg-info
+[3.221s] writing ../build/py_actions/py_actions.egg-info/PKG-INFO
+[3.222s] writing dependency_links to ../build/py_actions/py_actions.egg-info/dependency_links.txt
+[3.222s] writing entry points to ../build/py_actions/py_actions.egg-info/entry_points.txt
+[3.222s] writing requirements to ../build/py_actions/py_actions.egg-info/requires.txt
+[3.225s] writing top-level names to ../build/py_actions/py_actions.egg-info/top_level.txt
+[3.225s] writing manifest file '../build/py_actions/py_actions.egg-info/SOURCES.txt'
+[3.227s] reading manifest file '../build/py_actions/py_actions.egg-info/SOURCES.txt'
+[3.228s] writing manifest file '../build/py_actions/py_actions.egg-info/SOURCES.txt'
+[3.228s] running build
+[3.229s] running build_py
+[3.229s] creating /home/foiegreis/ros2_fndm_ws/src/build/py_actions/build
+[3.230s] creating /home/foiegreis/ros2_fndm_ws/src/build/py_actions/build/lib
+[3.230s] creating /home/foiegreis/ros2_fndm_ws/src/build/py_actions/build/lib/py_actions
+[3.230s] copying py_actions/__init__.py -> /home/foiegreis/ros2_fndm_ws/src/build/py_actions/build/lib/py_actions
+[3.231s] running install
+[3.231s] running install_lib
+[3.232s] creating /home/foiegreis/ros2_fndm_ws/src/install/py_actions/lib/python3.10/site-packages/py_actions
+[3.233s] copying /home/foiegreis/ros2_fndm_ws/src/build/py_actions/build/lib/py_actions/__init__.py -> /home/foiegreis/ros2_fndm_ws/src/install/py_actions/lib/python3.10/site-packages/py_actions
+[3.233s] byte-compiling /home/foiegreis/ros2_fndm_ws/src/install/py_actions/lib/python3.10/site-packages/py_actions/__init__.py to __init__.cpython-310.pyc
+[3.234s] running install_data
+[3.236s] creating /home/foiegreis/ros2_fndm_ws/src/install/py_actions/share/ament_index
+[3.236s] creating /home/foiegreis/ros2_fndm_ws/src/install/py_actions/share/ament_index/resource_index
+[3.236s] creating /home/foiegreis/ros2_fndm_ws/src/install/py_actions/share/ament_index/resource_index/packages
+[3.236s] copying resource/py_actions -> /home/foiegreis/ros2_fndm_ws/src/install/py_actions/share/ament_index/resource_index/packages
+[3.236s] copying package.xml -> /home/foiegreis/ros2_fndm_ws/src/install/py_actions/share/py_actions
+[3.237s] running install_egg_info
+[3.240s] Copying ../build/py_actions/py_actions.egg-info to /home/foiegreis/ros2_fndm_ws/src/install/py_actions/lib/python3.10/site-packages/py_actions-0.0.0-py3.10.egg-info
+[3.241s] running install_scripts
+[3.283s] writing list of installed files to '/home/foiegreis/ros2_fndm_ws/src/build/py_actions/install.log'
+[3.496s] Invoked command in '/home/foiegreis/ros2_fndm_ws/src/py_actions' returned '0': PYTHONPATH=/home/foiegreis/ros2_fndm_ws/src/build/py_actions/prefix_override:/home/foiegreis/ros2_fndm_ws/src/install/py_actions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_actions build --build-base /home/foiegreis/ros2_fndm_ws/src/build/py_actions/build install --record /home/foiegreis/ros2_fndm_ws/src/build/py_actions/install.log --single-version-externally-managed

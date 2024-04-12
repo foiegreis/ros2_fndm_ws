@@ -1,0 +1,42 @@
+[1.502s] Invoking command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake /home/foiegreis/ros2_fndm_ws/src/cpp_actions -DCMAKE_INSTALL_PREFIX=/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions
+[2.685s] -- The C compiler identification is GNU 11.4.0
+[2.686s] -- The CXX compiler identification is GNU 11.4.0
+[2.687s] -- Detecting C compiler ABI info
+[2.687s] -- Detecting C compiler ABI info - done
+[2.688s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.688s] -- Detecting C compile features
+[2.688s] -- Detecting C compile features - done
+[2.688s] -- Detecting CXX compiler ABI info
+[2.689s] -- Detecting CXX compiler ABI info - done
+[2.690s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.690s] -- Detecting CXX compile features
+[2.691s] -- Detecting CXX compile features - done
+[2.692s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[2.693s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.694s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[2.694s] -- Added test 'lint_cmake' to check CMake code style
+[2.694s] -- Added test 'xmllint' to check XML markup files
+[2.695s] -- Configuring done
+[2.695s] -- Generating done
+[2.697s] -- Build files have been written to: /home/foiegreis/ros2_fndm_ws/src/build/cpp_actions
+[2.708s] Invoked command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake /home/foiegreis/ros2_fndm_ws/src/cpp_actions -DCMAKE_INSTALL_PREFIX=/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions
+[2.708s] Invoking command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --build /home/foiegreis/ros2_fndm_ws/src/build/cpp_actions -- -j12 -l12
+[2.745s] Invoked command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --build /home/foiegreis/ros2_fndm_ws/src/build/cpp_actions -- -j12 -l12
+[2.790s] Invoking command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --install /home/foiegreis/ros2_fndm_ws/src/build/cpp_actions
+[2.800s] -- Install configuration: ""
+[2.800s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/ament_index/resource_index/package_run_dependencies/cpp_actions
+[2.800s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/ament_index/resource_index/parent_prefix_path/cpp_actions
+[2.801s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/environment/ament_prefix_path.sh
+[2.801s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/environment/ament_prefix_path.dsv
+[2.801s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/environment/path.sh
+[2.801s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/environment/path.dsv
+[2.802s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/local_setup.bash
+[2.802s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/local_setup.sh
+[2.802s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/local_setup.zsh
+[2.803s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/local_setup.dsv
+[2.803s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/package.dsv
+[2.803s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/ament_index/resource_index/packages/cpp_actions
+[2.803s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/cmake/cpp_actionsConfig.cmake
+[2.804s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/cmake/cpp_actionsConfig-version.cmake
+[2.804s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/package.xml
+[2.807s] Invoked command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --install /home/foiegreis/ros2_fndm_ws/src/build/cpp_actions

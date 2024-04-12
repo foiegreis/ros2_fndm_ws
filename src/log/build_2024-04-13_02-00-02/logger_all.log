@@ -1,0 +1,510 @@
+[1.455s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.455s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x70633b22e530>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70633b3f5c90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70633b3f5c90>>)
+[1.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.514s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/foiegreis/ros2_fndm_ws/src'
+[1.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_actions) by extensions ['ignore', 'ignore_ament_install']
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_actions) by extension 'ignore'
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_actions) by extension 'ignore_ament_install'
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_actions) by extensions ['colcon_pkg']
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_actions) by extension 'colcon_pkg'
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_actions) by extensions ['colcon_meta']
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_actions) by extension 'colcon_meta'
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_actions) by extensions ['ros']
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_actions) by extension 'ros'
+[1.536s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp_actions' with type 'ros.ament_cmake' and name 'cpp_actions'
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pkg) by extension 'ignore'
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pkg) by extension 'ignore_ament_install'
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pkg) by extensions ['colcon_pkg']
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pkg) by extension 'colcon_pkg'
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pkg) by extensions ['colcon_meta']
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pkg) by extension 'colcon_meta'
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pkg) by extensions ['ros']
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pkg) by extension 'ros'
+[1.537s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp_pkg' with type 'ros.ament_cmake' and name 'cpp_pkg'
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_py_pkg) by extension 'ignore'
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_py_pkg) by extension 'ignore_ament_install'
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_py_pkg) by extensions ['colcon_pkg']
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_py_pkg) by extension 'colcon_pkg'
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_py_pkg) by extensions ['colcon_meta']
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_py_pkg) by extension 'colcon_meta'
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_py_pkg) by extensions ['ros']
+[1.537s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_py_pkg) by extension 'ros'
+[1.538s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp_py_pkg' with type 'ros.ament_cmake' and name 'cpp_py_pkg'
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(py_actions) by extensions ['ignore', 'ignore_ament_install']
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(py_actions) by extension 'ignore'
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(py_actions) by extension 'ignore_ament_install'
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(py_actions) by extensions ['colcon_pkg']
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(py_actions) by extension 'colcon_pkg'
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(py_actions) by extensions ['colcon_meta']
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(py_actions) by extension 'colcon_meta'
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(py_actions) by extensions ['ros']
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(py_actions) by extension 'ros'
+[1.539s] DEBUG:colcon.colcon_core.package_identification:Package 'py_actions' with type 'ros.ament_python' and name 'py_actions'
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(py_pkg) by extension 'ignore'
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(py_pkg) by extension 'ignore_ament_install'
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(py_pkg) by extensions ['colcon_pkg']
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(py_pkg) by extension 'colcon_pkg'
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(py_pkg) by extensions ['colcon_meta']
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(py_pkg) by extension 'colcon_meta'
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(py_pkg) by extensions ['ros']
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(py_pkg) by extension 'ros'
+[1.540s] DEBUG:colcon.colcon_core.package_identification:Package 'py_pkg' with type 'ros.ament_python' and name 'py_pkg'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_fndm_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_fndm_bringup) by extension 'ignore'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_fndm_bringup) by extension 'ignore_ament_install'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_fndm_bringup) by extensions ['colcon_pkg']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_fndm_bringup) by extension 'colcon_pkg'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_fndm_bringup) by extensions ['colcon_meta']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_fndm_bringup) by extension 'colcon_meta'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_fndm_bringup) by extensions ['ros']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_fndm_bringup) by extension 'ros'
+[1.541s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_fndm_bringup' with type 'ros.ament_cmake' and name 'ros2_fndm_bringup'
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_fndm_interface) by extensions ['ignore', 'ignore_ament_install']
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_fndm_interface) by extension 'ignore'
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_fndm_interface) by extension 'ignore_ament_install'
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_fndm_interface) by extensions ['colcon_pkg']
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_fndm_interface) by extension 'colcon_pkg'
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_fndm_interface) by extensions ['colcon_meta']
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_fndm_interface) by extension 'colcon_meta'
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_fndm_interface) by extensions ['ros']
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_fndm_interface) by extension 'ros'
+[1.542s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_fndm_interface' with type 'ros.ament_cmake' and name 'ros2_fndm_interface'
+[1.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.676s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.719s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/foiegreis/ros2_fndm_ws/install
+[1.741s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/foiegreis/my_ros2_ws/install
+[1.763s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/foiegreis/my_ros2_ws/src/install
+[1.784s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/foiegreis/ros2_ws_book/install
+[1.806s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/foiegreis/ros2_ws_yolo3d/install
+[1.827s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/foiegreis/ros2_ws/install
+[1.850s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 408 installed packages in /opt/ros/iron
+[1.851s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.934s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'py_pkg' is in: /home/foiegreis/my_ros2_ws/install/py_pkg, /home/foiegreis/my_ros2_ws/src/install/py_pkg, /home/foiegreis/ros2_ws_book/install/py_pkg
+	'cpp_pkg' is in: /home/foiegreis/my_ros2_ws/install/cpp_pkg, /home/foiegreis/my_ros2_ws/src/install/cpp_pkg, /home/foiegreis/ros2_ws_book/install/cpp_pkg
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding cpp_pkg py_pkg
+
+This may be promoted to an error in a future release of colcon-override-check.
+[1.957s] Level 5:colcon.colcon_core.verb:set package 'cpp_actions' build argument 'cmake_args' from command line to 'None'
+[1.957s] Level 5:colcon.colcon_core.verb:set package 'cpp_actions' build argument 'cmake_target' from command line to 'None'
+[1.957s] Level 5:colcon.colcon_core.verb:set package 'cpp_actions' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.957s] Level 5:colcon.colcon_core.verb:set package 'cpp_actions' build argument 'cmake_clean_cache' from command line to 'False'
+[1.957s] Level 5:colcon.colcon_core.verb:set package 'cpp_actions' build argument 'cmake_clean_first' from command line to 'False'
+[1.957s] Level 5:colcon.colcon_core.verb:set package 'cpp_actions' build argument 'cmake_force_configure' from command line to 'False'
+[1.957s] Level 5:colcon.colcon_core.verb:set package 'cpp_actions' build argument 'ament_cmake_args' from command line to 'None'
+[1.957s] Level 5:colcon.colcon_core.verb:set package 'cpp_actions' build argument 'catkin_cmake_args' from command line to 'None'
+[1.957s] Level 5:colcon.colcon_core.verb:set package 'cpp_actions' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.957s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_actions' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/foiegreis/ros2_fndm_ws/src/build/cpp_actions', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions', 'merge_install': False, 'path': '/home/foiegreis/ros2_fndm_ws/src/cpp_actions', 'symlink_install': False, 'test_result_base': None}
+[1.979s] Level 5:colcon.colcon_core.verb:set package 'cpp_pkg' build argument 'cmake_args' from command line to 'None'
+[1.979s] Level 5:colcon.colcon_core.verb:set package 'cpp_pkg' build argument 'cmake_target' from command line to 'None'
+[1.979s] Level 5:colcon.colcon_core.verb:set package 'cpp_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.979s] Level 5:colcon.colcon_core.verb:set package 'cpp_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.979s] Level 5:colcon.colcon_core.verb:set package 'cpp_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.979s] Level 5:colcon.colcon_core.verb:set package 'cpp_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.979s] Level 5:colcon.colcon_core.verb:set package 'cpp_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.979s] Level 5:colcon.colcon_core.verb:set package 'cpp_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.979s] Level 5:colcon.colcon_core.verb:set package 'cpp_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.979s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/foiegreis/ros2_fndm_ws/src/build/cpp_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg', 'merge_install': False, 'path': '/home/foiegreis/ros2_fndm_ws/src/cpp_pkg', 'symlink_install': False, 'test_result_base': None}
+[2.000s] Level 5:colcon.colcon_core.verb:set package 'cpp_py_pkg' build argument 'cmake_args' from command line to 'None'
+[2.000s] Level 5:colcon.colcon_core.verb:set package 'cpp_py_pkg' build argument 'cmake_target' from command line to 'None'
+[2.000s] Level 5:colcon.colcon_core.verb:set package 'cpp_py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.000s] Level 5:colcon.colcon_core.verb:set package 'cpp_py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.000s] Level 5:colcon.colcon_core.verb:set package 'cpp_py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[2.000s] Level 5:colcon.colcon_core.verb:set package 'cpp_py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[2.000s] Level 5:colcon.colcon_core.verb:set package 'cpp_py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[2.000s] Level 5:colcon.colcon_core.verb:set package 'cpp_py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.000s] Level 5:colcon.colcon_core.verb:set package 'cpp_py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.000s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/foiegreis/ros2_fndm_ws/src/build/cpp_py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg', 'merge_install': False, 'path': '/home/foiegreis/ros2_fndm_ws/src/cpp_py_pkg', 'symlink_install': False, 'test_result_base': None}
+[2.025s] Level 5:colcon.colcon_core.verb:set package 'py_actions' build argument 'cmake_args' from command line to 'None'
+[2.025s] Level 5:colcon.colcon_core.verb:set package 'py_actions' build argument 'cmake_target' from command line to 'None'
+[2.025s] Level 5:colcon.colcon_core.verb:set package 'py_actions' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.025s] Level 5:colcon.colcon_core.verb:set package 'py_actions' build argument 'cmake_clean_cache' from command line to 'False'
+[2.025s] Level 5:colcon.colcon_core.verb:set package 'py_actions' build argument 'cmake_clean_first' from command line to 'False'
+[2.025s] Level 5:colcon.colcon_core.verb:set package 'py_actions' build argument 'cmake_force_configure' from command line to 'False'
+[2.025s] Level 5:colcon.colcon_core.verb:set package 'py_actions' build argument 'ament_cmake_args' from command line to 'None'
+[2.025s] Level 5:colcon.colcon_core.verb:set package 'py_actions' build argument 'catkin_cmake_args' from command line to 'None'
+[2.025s] Level 5:colcon.colcon_core.verb:set package 'py_actions' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.025s] DEBUG:colcon.colcon_core.verb:Building package 'py_actions' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/foiegreis/ros2_fndm_ws/src/build/py_actions', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/foiegreis/ros2_fndm_ws/src/install/py_actions', 'merge_install': False, 'path': '/home/foiegreis/ros2_fndm_ws/src/py_actions', 'symlink_install': False, 'test_result_base': None}
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'py_pkg' build argument 'cmake_args' from command line to 'None'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'py_pkg' build argument 'cmake_target' from command line to 'None'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.049s] DEBUG:colcon.colcon_core.verb:Building package 'py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/foiegreis/ros2_fndm_ws/src/build/py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/foiegreis/ros2_fndm_ws/src/install/py_pkg', 'merge_install': False, 'path': '/home/foiegreis/ros2_fndm_ws/src/py_pkg', 'symlink_install': False, 'test_result_base': None}
+[2.071s] Level 5:colcon.colcon_core.verb:set package 'ros2_fndm_bringup' build argument 'cmake_args' from command line to 'None'
+[2.071s] Level 5:colcon.colcon_core.verb:set package 'ros2_fndm_bringup' build argument 'cmake_target' from command line to 'None'
+[2.071s] Level 5:colcon.colcon_core.verb:set package 'ros2_fndm_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.071s] Level 5:colcon.colcon_core.verb:set package 'ros2_fndm_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.071s] Level 5:colcon.colcon_core.verb:set package 'ros2_fndm_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.071s] Level 5:colcon.colcon_core.verb:set package 'ros2_fndm_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.071s] Level 5:colcon.colcon_core.verb:set package 'ros2_fndm_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.071s] Level 5:colcon.colcon_core.verb:set package 'ros2_fndm_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.071s] Level 5:colcon.colcon_core.verb:set package 'ros2_fndm_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.071s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_fndm_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup', 'merge_install': False, 'path': '/home/foiegreis/ros2_fndm_ws/src/ros2_fndm_bringup', 'symlink_install': False, 'test_result_base': None}
+[2.092s] Level 5:colcon.colcon_core.verb:set package 'ros2_fndm_interface' build argument 'cmake_args' from command line to 'None'
+[2.092s] Level 5:colcon.colcon_core.verb:set package 'ros2_fndm_interface' build argument 'cmake_target' from command line to 'None'
+[2.092s] Level 5:colcon.colcon_core.verb:set package 'ros2_fndm_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.092s] Level 5:colcon.colcon_core.verb:set package 'ros2_fndm_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[2.092s] Level 5:colcon.colcon_core.verb:set package 'ros2_fndm_interface' build argument 'cmake_clean_first' from command line to 'False'
+[2.092s] Level 5:colcon.colcon_core.verb:set package 'ros2_fndm_interface' build argument 'cmake_force_configure' from command line to 'False'
+[2.092s] Level 5:colcon.colcon_core.verb:set package 'ros2_fndm_interface' build argument 'ament_cmake_args' from command line to 'None'
+[2.093s] Level 5:colcon.colcon_core.verb:set package 'ros2_fndm_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[2.093s] Level 5:colcon.colcon_core.verb:set package 'ros2_fndm_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.093s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_fndm_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface', 'merge_install': False, 'path': '/home/foiegreis/ros2_fndm_ws/src/ros2_fndm_interface', 'symlink_install': False, 'test_result_base': None}
+[2.114s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.135s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.135s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/foiegreis/ros2_fndm_ws/src/cpp_actions' with build type 'ament_cmake'
+[2.135s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/foiegreis/ros2_fndm_ws/src/cpp_actions'
+[2.160s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.160s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.160s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.345s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/foiegreis/ros2_fndm_ws/src/cpp_pkg' with build type 'ament_cmake'
+[2.345s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/foiegreis/ros2_fndm_ws/src/cpp_pkg'
+[2.369s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.369s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.550s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/foiegreis/ros2_fndm_ws/src/cpp_py_pkg' with build type 'ament_cmake'
+[2.551s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/foiegreis/ros2_fndm_ws/src/cpp_py_pkg'
+[2.572s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.573s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.757s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/foiegreis/ros2_fndm_ws/src/py_actions' with build type 'ament_python'
+[2.757s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_actions', 'ament_prefix_path')
+[2.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/py_actions/share/py_actions/hook/ament_prefix_path.ps1'
+[2.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foiegreis/ros2_fndm_ws/src/install/py_actions/share/py_actions/hook/ament_prefix_path.dsv'
+[2.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/py_actions/share/py_actions/hook/ament_prefix_path.sh'
+[2.810s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.810s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.003s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/foiegreis/ros2_fndm_ws/src/py_pkg' with build type 'ament_python'
+[3.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pkg', 'ament_prefix_path')
+[3.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/py_pkg/share/py_pkg/hook/ament_prefix_path.ps1'
+[3.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foiegreis/ros2_fndm_ws/src/install/py_pkg/share/py_pkg/hook/ament_prefix_path.dsv'
+[3.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/py_pkg/share/py_pkg/hook/ament_prefix_path.sh'
+[3.049s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.049s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.225s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/foiegreis/ros2_fndm_ws/src/ros2_fndm_bringup' with build type 'ament_cmake'
+[3.226s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/foiegreis/ros2_fndm_ws/src/ros2_fndm_bringup'
+[3.248s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.248s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.435s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/foiegreis/ros2_fndm_ws/src/ros2_fndm_interface' with build type 'ament_cmake'
+[3.435s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/foiegreis/ros2_fndm_ws/src/ros2_fndm_interface'
+[3.458s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.458s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake /home/foiegreis/ros2_fndm_ws/src/cpp_actions -DCMAKE_INSTALL_PREFIX=/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions
+[3.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake /home/foiegreis/ros2_fndm_ws/src/cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg
+[3.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake /home/foiegreis/ros2_fndm_ws/src/cpp_py_pkg -DCMAKE_INSTALL_PREFIX=/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg
+[4.026s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/foiegreis/ros2_fndm_ws/src/py_actions'
+[4.049s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.050s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.608s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/foiegreis/ros2_fndm_ws/src/py_pkg'
+[4.632s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.632s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake /home/foiegreis/ros2_fndm_ws/src/ros2_fndm_bringup -DCMAKE_INSTALL_PREFIX=/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup
+[4.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake /home/foiegreis/ros2_fndm_ws/src/ros2_fndm_interface -DCMAKE_INSTALL_PREFIX=/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface
+[4.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake /home/foiegreis/ros2_fndm_ws/src/cpp_actions -DCMAKE_INSTALL_PREFIX=/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions
+[4.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --build /home/foiegreis/ros2_fndm_ws/src/build/cpp_actions -- -j12 -l12
+[4.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --build /home/foiegreis/ros2_fndm_ws/src/build/cpp_actions -- -j12 -l12
+[4.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --install /home/foiegreis/ros2_fndm_ws/src/build/cpp_actions
+[4.942s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_actions)
+[4.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --install /home/foiegreis/ros2_fndm_ws/src/build/cpp_actions
+[4.998s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions' for CMake module files
+[4.998s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions' for CMake config files
+[4.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_actions', 'cmake_prefix_path')
+[5.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/hook/cmake_prefix_path.ps1'
+[5.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/hook/cmake_prefix_path.dsv'
+[5.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/hook/cmake_prefix_path.sh'
+[5.044s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/bin'
+[5.044s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/lib/pkgconfig/cpp_actions.pc'
+[5.044s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/lib/python3.10/site-packages'
+[5.044s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/bin'
+[5.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/package.ps1'
+[5.083s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/package.dsv'
+[5.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/package.sh'
+[5.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/package.bash'
+[5.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/package.zsh'
+[5.087s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/colcon-core/packages/cpp_actions)
+[5.151s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_actions)
+[5.217s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions' for CMake module files
+[5.218s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions' for CMake config files
+[5.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_actions', 'cmake_prefix_path')
+[5.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/hook/cmake_prefix_path.ps1'
+[5.271s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/hook/cmake_prefix_path.dsv'
+[5.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/hook/cmake_prefix_path.sh'
+[5.272s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/bin'
+[5.272s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/lib/pkgconfig/cpp_actions.pc'
+[5.273s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/lib/python3.10/site-packages'
+[5.273s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/bin'
+[5.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/package.ps1'
+[5.321s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/package.dsv'
+[5.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/package.sh'
+[5.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/package.bash'
+[5.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/cpp_actions/package.zsh'
+[5.323s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foiegreis/ros2_fndm_ws/src/install/cpp_actions/share/colcon-core/packages/cpp_actions)
+[5.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foiegreis/ros2_fndm_ws/src/py_actions': PYTHONPATH=/home/foiegreis/ros2_fndm_ws/src/build/py_actions/prefix_override:/home/foiegreis/ros2_fndm_ws/src/install/py_actions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_actions build --build-base /home/foiegreis/ros2_fndm_ws/src/build/py_actions/build install --record /home/foiegreis/ros2_fndm_ws/src/build/py_actions/install.log --single-version-externally-managed
+[5.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foiegreis/ros2_fndm_ws/src/py_pkg': PYTHONPATH=/home/foiegreis/ros2_fndm_ws/src/build/py_pkg/prefix_override:/home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_pkg build --build-base /home/foiegreis/ros2_fndm_ws/src/build/py_pkg/build install --record /home/foiegreis/ros2_fndm_ws/src/build/py_pkg/install.log --single-version-externally-managed
+[5.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake /home/foiegreis/ros2_fndm_ws/src/cpp_py_pkg -DCMAKE_INSTALL_PREFIX=/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg
+[5.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --build /home/foiegreis/ros2_fndm_ws/src/build/cpp_py_pkg -- -j12 -l12
+[5.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake /home/foiegreis/ros2_fndm_ws/src/ros2_fndm_bringup -DCMAKE_INSTALL_PREFIX=/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup
+[5.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --build /home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_bringup -- -j12 -l12
+[5.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake /home/foiegreis/ros2_fndm_ws/src/cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg
+[5.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --build /home/foiegreis/ros2_fndm_ws/src/build/cpp_pkg -- -j12 -l12
+[5.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --build /home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_bringup -- -j12 -l12
+[5.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake /home/foiegreis/ros2_fndm_ws/src/ros2_fndm_interface -DCMAKE_INSTALL_PREFIX=/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface
+[5.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --build /home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_interface -- -j12 -l12
+[5.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --install /home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_bringup
+[5.966s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_fndm_bringup)
+[5.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --install /home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_bringup
+[6.040s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup' for CMake module files
+[6.041s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup' for CMake config files
+[6.042s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_fndm_bringup', 'cmake_prefix_path')
+[6.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup/share/ros2_fndm_bringup/hook/cmake_prefix_path.ps1'
+[6.086s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup/share/ros2_fndm_bringup/hook/cmake_prefix_path.dsv'
+[6.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup/share/ros2_fndm_bringup/hook/cmake_prefix_path.sh'
+[6.087s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup/bin'
+[6.087s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup/lib/pkgconfig/ros2_fndm_bringup.pc'
+[6.087s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup/lib/python3.10/site-packages'
+[6.087s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup/bin'
+[6.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup/share/ros2_fndm_bringup/package.ps1'
+[6.120s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup/share/ros2_fndm_bringup/package.dsv'
+[6.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup/share/ros2_fndm_bringup/package.sh'
+[6.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup/share/ros2_fndm_bringup/package.bash'
+[6.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup/share/ros2_fndm_bringup/package.zsh'
+[6.121s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup/share/colcon-core/packages/ros2_fndm_bringup)
+[6.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --build /home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_interface -- -j12 -l12
+[6.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foiegreis/ros2_fndm_ws/src/py_pkg' returned '0': PYTHONPATH=/home/foiegreis/ros2_fndm_ws/src/build/py_pkg/prefix_override:/home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_pkg build --build-base /home/foiegreis/ros2_fndm_ws/src/build/py_pkg/build install --record /home/foiegreis/ros2_fndm_ws/src/build/py_pkg/install.log --single-version-externally-managed
+[6.172s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/py_pkg' for CMake module files
+[6.173s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/py_pkg' for CMake config files
+[6.174s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib'
+[6.174s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/py_pkg/bin'
+[6.174s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/pkgconfig/py_pkg.pc'
+[6.175s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/python3.10/site-packages'
+[6.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pkg', 'pythonpath')
+[6.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/py_pkg/share/py_pkg/hook/pythonpath.ps1'
+[6.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foiegreis/ros2_fndm_ws/src/install/py_pkg/share/py_pkg/hook/pythonpath.dsv'
+[6.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/py_pkg/share/py_pkg/hook/pythonpath.sh'
+[6.218s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/py_pkg/bin'
+[6.219s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pkg)
+[6.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/py_pkg/share/py_pkg/package.ps1'
+[6.250s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foiegreis/ros2_fndm_ws/src/install/py_pkg/share/py_pkg/package.dsv'
+[6.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/py_pkg/share/py_pkg/package.sh'
+[6.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/py_pkg/share/py_pkg/package.bash'
+[6.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/py_pkg/share/py_pkg/package.zsh'
+[6.251s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foiegreis/ros2_fndm_ws/src/install/py_pkg/share/colcon-core/packages/py_pkg)
+[6.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foiegreis/ros2_fndm_ws/src/py_actions' returned '0': PYTHONPATH=/home/foiegreis/ros2_fndm_ws/src/build/py_actions/prefix_override:/home/foiegreis/ros2_fndm_ws/src/install/py_actions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_actions build --build-base /home/foiegreis/ros2_fndm_ws/src/build/py_actions/build install --record /home/foiegreis/ros2_fndm_ws/src/build/py_actions/install.log --single-version-externally-managed
+[6.283s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/py_actions' for CMake module files
+[6.284s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/py_actions' for CMake config files
+[6.284s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/py_actions/lib'
+[6.284s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/py_actions/bin'
+[6.284s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/py_actions/lib/pkgconfig/py_actions.pc'
+[6.285s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/py_actions/lib/python3.10/site-packages'
+[6.285s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_actions', 'pythonpath')
+[6.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/py_actions/share/py_actions/hook/pythonpath.ps1'
+[6.318s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foiegreis/ros2_fndm_ws/src/install/py_actions/share/py_actions/hook/pythonpath.dsv'
+[6.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/py_actions/share/py_actions/hook/pythonpath.sh'
+[6.319s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/py_actions/bin'
+[6.319s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_actions)
+[6.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/py_actions/share/py_actions/package.ps1'
+[6.349s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foiegreis/ros2_fndm_ws/src/install/py_actions/share/py_actions/package.dsv'
+[6.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/py_actions/share/py_actions/package.sh'
+[6.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/py_actions/share/py_actions/package.bash'
+[6.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/py_actions/share/py_actions/package.zsh'
+[6.351s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foiegreis/ros2_fndm_ws/src/install/py_actions/share/colcon-core/packages/py_actions)
+[6.391s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_fndm_bringup)
+[6.428s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup' for CMake module files
+[6.429s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup' for CMake config files
+[6.429s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_fndm_bringup', 'cmake_prefix_path')
+[6.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup/share/ros2_fndm_bringup/hook/cmake_prefix_path.ps1'
+[6.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup/share/ros2_fndm_bringup/hook/cmake_prefix_path.dsv'
+[6.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup/share/ros2_fndm_bringup/hook/cmake_prefix_path.sh'
+[6.480s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup/bin'
+[6.480s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup/lib/pkgconfig/ros2_fndm_bringup.pc'
+[6.481s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup/lib/python3.10/site-packages'
+[6.481s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup/bin'
+[6.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup/share/ros2_fndm_bringup/package.ps1'
+[6.530s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup/share/ros2_fndm_bringup/package.dsv'
+[6.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup/share/ros2_fndm_bringup/package.sh'
+[6.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup/share/ros2_fndm_bringup/package.bash'
+[6.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup/share/ros2_fndm_bringup/package.zsh'
+[6.533s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_bringup/share/colcon-core/packages/ros2_fndm_bringup)
+[6.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --install /home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_interface
+[6.550s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_fndm_interface)
+[6.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --install /home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_interface
+[6.601s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface' for CMake module files
+[6.602s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface' for CMake config files
+[6.602s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_fndm_interface', 'cmake_prefix_path')
+[6.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/hook/cmake_prefix_path.ps1'
+[6.656s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/hook/cmake_prefix_path.dsv'
+[6.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/hook/cmake_prefix_path.sh'
+[6.657s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/bin'
+[6.657s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/lib/pkgconfig/ros2_fndm_interface.pc'
+[6.658s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/lib/python3.10/site-packages'
+[6.658s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/bin'
+[6.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/package.ps1'
+[6.709s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/package.dsv'
+[6.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/package.sh'
+[6.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/package.bash'
+[6.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/package.zsh'
+[6.712s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/colcon-core/packages/ros2_fndm_interface)
+[6.804s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_fndm_interface)
+[6.856s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface' for CMake module files
+[6.857s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface' for CMake config files
+[6.857s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_fndm_interface', 'cmake_prefix_path')
+[6.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/hook/cmake_prefix_path.ps1'
+[6.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/hook/cmake_prefix_path.dsv'
+[6.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/hook/cmake_prefix_path.sh'
+[6.911s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/bin'
+[6.911s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/lib/pkgconfig/ros2_fndm_interface.pc'
+[6.911s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/lib/python3.10/site-packages'
+[6.912s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/bin'
+[6.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/package.ps1'
+[6.964s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/package.dsv'
+[6.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/package.sh'
+[6.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/package.bash'
+[6.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/package.zsh'
+[6.967s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/colcon-core/packages/ros2_fndm_interface)
+[10.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --build /home/foiegreis/ros2_fndm_ws/src/build/cpp_py_pkg -- -j12 -l12
+[10.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --install /home/foiegreis/ros2_fndm_ws/src/build/cpp_py_pkg
+[10.867s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_py_pkg)
+[10.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --install /home/foiegreis/ros2_fndm_ws/src/build/cpp_py_pkg
+[10.910s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg' for CMake module files
+[10.911s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg' for CMake config files
+[10.912s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_py_pkg', 'cmake_prefix_path')
+[10.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/share/cpp_py_pkg/hook/cmake_prefix_path.ps1'
+[10.941s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/share/cpp_py_pkg/hook/cmake_prefix_path.dsv'
+[10.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/share/cpp_py_pkg/hook/cmake_prefix_path.sh'
+[10.941s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/lib'
+[10.941s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/bin'
+[10.941s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/lib/pkgconfig/cpp_py_pkg.pc'
+[10.942s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/lib/python3.10/site-packages'
+[10.942s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_py_pkg', 'pythonpath')
+[10.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/share/cpp_py_pkg/hook/pythonpath.ps1'
+[10.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/share/cpp_py_pkg/hook/pythonpath.dsv'
+[10.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/share/cpp_py_pkg/hook/pythonpath.sh'
+[10.970s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/bin'
+[10.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/share/cpp_py_pkg/package.ps1'
+[10.998s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/share/cpp_py_pkg/package.dsv'
+[10.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/share/cpp_py_pkg/package.sh'
+[10.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/share/cpp_py_pkg/package.bash'
+[10.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/share/cpp_py_pkg/package.zsh'
+[10.999s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/share/colcon-core/packages/cpp_py_pkg)
+[11.071s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_py_pkg)
+[11.098s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg' for CMake module files
+[11.099s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg' for CMake config files
+[11.099s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_py_pkg', 'cmake_prefix_path')
+[11.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/share/cpp_py_pkg/hook/cmake_prefix_path.ps1'
+[11.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/share/cpp_py_pkg/hook/cmake_prefix_path.dsv'
+[11.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/share/cpp_py_pkg/hook/cmake_prefix_path.sh'
+[11.128s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/lib'
+[11.128s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/bin'
+[11.128s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/lib/pkgconfig/cpp_py_pkg.pc'
+[11.129s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/lib/python3.10/site-packages'
+[11.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_py_pkg', 'pythonpath')
+[11.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/share/cpp_py_pkg/hook/pythonpath.ps1'
+[11.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/share/cpp_py_pkg/hook/pythonpath.dsv'
+[11.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/share/cpp_py_pkg/hook/pythonpath.sh'
+[11.158s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/bin'
+[11.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/share/cpp_py_pkg/package.ps1'
+[11.186s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/share/cpp_py_pkg/package.dsv'
+[11.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/share/cpp_py_pkg/package.sh'
+[11.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/share/cpp_py_pkg/package.bash'
+[11.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/share/cpp_py_pkg/package.zsh'
+[11.188s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foiegreis/ros2_fndm_ws/src/install/cpp_py_pkg/share/colcon-core/packages/cpp_py_pkg)
+[14.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --build /home/foiegreis/ros2_fndm_ws/src/build/cpp_pkg -- -j12 -l12
+[14.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --install /home/foiegreis/ros2_fndm_ws/src/build/cpp_pkg
+[14.441s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pkg)
+[14.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foiegreis/ros2_fndm_ws/src/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --install /home/foiegreis/ros2_fndm_ws/src/build/cpp_pkg
+[14.466s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg' for CMake module files
+[14.466s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg' for CMake config files
+[14.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pkg', 'cmake_prefix_path')
+[14.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/hook/cmake_prefix_path.ps1'
+[14.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/hook/cmake_prefix_path.dsv'
+[14.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/hook/cmake_prefix_path.sh'
+[14.489s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/lib'
+[14.489s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/bin'
+[14.489s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/lib/pkgconfig/cpp_pkg.pc'
+[14.490s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/lib/python3.10/site-packages'
+[14.490s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/bin'
+[14.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/package.ps1'
+[14.512s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/package.dsv'
+[14.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/package.sh'
+[14.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/package.bash'
+[14.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/package.zsh'
+[14.513s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/colcon-core/packages/cpp_pkg)
+[14.573s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pkg)
+[14.595s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg' for CMake module files
+[14.595s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg' for CMake config files
+[14.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pkg', 'cmake_prefix_path')
+[14.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/hook/cmake_prefix_path.ps1'
+[14.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/hook/cmake_prefix_path.dsv'
+[14.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/hook/cmake_prefix_path.sh'
+[14.619s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/lib'
+[14.619s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/bin'
+[14.619s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/lib/pkgconfig/cpp_pkg.pc'
+[14.619s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/lib/python3.10/site-packages'
+[14.619s] Level 1:colcon.colcon_core.environment:checking '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/bin'
+[14.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/package.ps1'
+[14.642s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/package.dsv'
+[14.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/package.sh'
+[14.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/package.bash'
+[14.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/cpp_pkg/package.zsh'
+[14.644s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foiegreis/ros2_fndm_ws/src/install/cpp_pkg/share/colcon-core/packages/cpp_pkg)
+[14.644s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.644s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.644s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.644s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.673s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.673s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.673s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.684s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.707s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/foiegreis/ros2_fndm_ws/src/install/local_setup.ps1'
+[14.707s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/foiegreis/ros2_fndm_ws/src/install/_local_setup_util_ps1.py'
+[14.708s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/foiegreis/ros2_fndm_ws/src/install/setup.ps1'
+[14.733s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/foiegreis/ros2_fndm_ws/src/install/local_setup.sh'
+[14.733s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/foiegreis/ros2_fndm_ws/src/install/_local_setup_util_sh.py'
+[14.734s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/foiegreis/ros2_fndm_ws/src/install/setup.sh'
+[14.758s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/foiegreis/ros2_fndm_ws/src/install/local_setup.bash'
+[14.758s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/foiegreis/ros2_fndm_ws/src/install/setup.bash'
+[14.782s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/foiegreis/ros2_fndm_ws/src/install/local_setup.zsh'
+[14.783s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/foiegreis/ros2_fndm_ws/src/install/setup.zsh'

@@ -1,0 +1,6 @@
+setup.py
+my_ros2_interface/__init__.py
+my_ros2_interface.egg-info/PKG-INFO
+my_ros2_interface.egg-info/SOURCES.txt
+my_ros2_interface.egg-info/dependency_links.txt
+my_ros2_interface.egg-info/top_level.txt

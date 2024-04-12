@@ -1,0 +1,42 @@
+[1.408s] Invoking command in '/home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake /home/foiegreis/ros2_fndm_ws/src/ros2_fndm_interface -DCMAKE_INSTALL_PREFIX=/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface
+[1.484s] -- The C compiler identification is GNU 11.4.0
+[1.564s] -- The CXX compiler identification is GNU 11.4.0
+[1.577s] -- Detecting C compiler ABI info
+[1.666s] -- Detecting C compiler ABI info - done
+[1.683s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.684s] -- Detecting C compile features
+[1.684s] -- Detecting C compile features - done
+[1.689s] -- Detecting CXX compiler ABI info
+[1.793s] -- Detecting CXX compiler ABI info - done
+[1.811s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.812s] -- Detecting CXX compile features
+[1.812s] -- Detecting CXX compile features - done
+[1.822s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[2.096s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.301s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[2.470s] -- Added test 'lint_cmake' to check CMake code style
+[2.472s] -- Added test 'xmllint' to check XML markup files
+[2.475s] -- Configuring done
+[2.479s] -- Generating done
+[2.480s] -- Build files have been written to: /home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_interface
+[2.486s] Invoked command in '/home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake /home/foiegreis/ros2_fndm_ws/src/ros2_fndm_interface -DCMAKE_INSTALL_PREFIX=/home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface
+[2.491s] Invoking command in '/home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --build /home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_interface -- -j12 -l12
+[2.689s] Invoked command in '/home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --build /home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_interface -- -j12 -l12
+[3.100s] Invoking command in '/home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --install /home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_interface
+[3.109s] -- Install configuration: ""
+[3.109s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ament_index/resource_index/package_run_dependencies/ros2_fndm_interface
+[3.109s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ament_index/resource_index/parent_prefix_path/ros2_fndm_interface
+[3.110s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/environment/ament_prefix_path.sh
+[3.110s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/environment/ament_prefix_path.dsv
+[3.110s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/environment/path.sh
+[3.110s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/environment/path.dsv
+[3.111s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/local_setup.bash
+[3.111s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/local_setup.sh
+[3.111s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/local_setup.zsh
+[3.111s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/local_setup.dsv
+[3.112s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/package.dsv
+[3.112s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ament_index/resource_index/packages/ros2_fndm_interface
+[3.112s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/cmake/ros2_fndm_interfaceConfig.cmake
+[3.112s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/cmake/ros2_fndm_interfaceConfig-version.cmake
+[3.112s] -- Installing: /home/foiegreis/ros2_fndm_ws/src/install/ros2_fndm_interface/share/ros2_fndm_interface/package.xml
+[3.115s] Invoked command in '/home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/my_ros2_ws/install/py_pkg:/home/foiegreis/my_ros2_ws/install/py_actions:/home/foiegreis/my_ros2_ws/src/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --install /home/foiegreis/ros2_fndm_ws/src/build/ros2_fndm_interface

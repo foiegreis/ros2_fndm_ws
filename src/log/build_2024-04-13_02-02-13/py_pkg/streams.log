@@ -1,0 +1,25 @@
+[1.448s] Invoking command in '/home/foiegreis/ros2_fndm_ws/src/py_pkg': PYTHONPATH=/home/foiegreis/ros2_fndm_ws/src/build/py_pkg/prefix_override:/home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_pkg build --build-base /home/foiegreis/ros2_fndm_ws/src/build/py_pkg/build install --record /home/foiegreis/ros2_fndm_ws/src/build/py_pkg/install.log --single-version-externally-managed
+[1.774s] running egg_info
+[1.774s] writing ../build/py_pkg/py_pkg.egg-info/PKG-INFO
+[1.774s] writing dependency_links to ../build/py_pkg/py_pkg.egg-info/dependency_links.txt
+[1.775s] writing entry points to ../build/py_pkg/py_pkg.egg-info/entry_points.txt
+[1.775s] writing requirements to ../build/py_pkg/py_pkg.egg-info/requires.txt
+[1.775s] writing top-level names to ../build/py_pkg/py_pkg.egg-info/top_level.txt
+[1.776s] reading manifest file '../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[1.777s] writing manifest file '../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[1.777s] running build
+[1.777s] running build_py
+[1.778s] running install
+[1.778s] running install_lib
+[1.779s] running install_data
+[1.780s] running install_egg_info
+[1.781s] removing '/home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.781s] Copying ../build/py_pkg/py_pkg.egg-info to /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg-0.0.0-py3.10.egg-info
+[1.782s] running install_scripts
+[1.801s] Installing listener_py script to /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/py_pkg
+[1.801s] Installing simple_node_py script to /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/py_pkg
+[1.802s] Installing sum_client_py script to /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/py_pkg
+[1.802s] Installing sum_server_py script to /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/py_pkg
+[1.802s] Installing talker_py script to /home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/py_pkg
+[1.802s] writing list of installed files to '/home/foiegreis/ros2_fndm_ws/src/build/py_pkg/install.log'
+[1.826s] Invoked command in '/home/foiegreis/ros2_fndm_ws/src/py_pkg' returned '0': PYTHONPATH=/home/foiegreis/ros2_fndm_ws/src/build/py_pkg/prefix_override:/home/foiegreis/ros2_fndm_ws/src/install/py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_pkg build --build-base /home/foiegreis/ros2_fndm_ws/src/build/py_pkg/build install --record /home/foiegreis/ros2_fndm_ws/src/build/py_pkg/install.log --single-version-externally-managed
