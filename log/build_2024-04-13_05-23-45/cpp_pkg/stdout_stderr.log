@@ -1,0 +1,70 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/iron/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found example_interfaces: 0.10.2 (/opt/ros/iron/share/example_interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/foiegreis/ros2_fndm_ws/build/cpp_pkg
+[ 30%] [32mBuilding CXX object CMakeFiles/talker_cpp.dir/src/talker.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/listener_cpp.dir/src/listener.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/simple_node_cpp.dir/src/simple_node.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/sum_server_cpp.dir/src/sum_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sum_client_cpp.dir/src/sum_client.cpp.o[0m
+[01m[K/home/foiegreis/ros2_fndm_ws/src/cpp_pkg/src/listener.cpp:[m[K In constructor ‘[01m[KListenerNode::ListenerNode()[m[K’:
+[01m[K/home/foiegreis/ros2_fndm_ws/src/cpp_pkg/src/listener.cpp:12:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   12 |         subscriber_ = this->create_subscription<[01;31m[Kstd_msgs[m[K::msg::String>(
+      |                                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/foiegreis/ros2_fndm_ws/src/cpp_pkg/src/listener.cpp:12:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   12 |         subscriber_ = this->[01;31m[Kcreate_subscription<std_msgs::msg::String>[m[K(
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/foiegreis/ros2_fndm_ws/src/cpp_pkg/src/listener.cpp:12:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KListenerNode::create_subscription<<expression error> >(const char [9], int, std::_Bind_helper<false, void (ListenerNode::*)(const example_interfaces::msg::String_<std::allocator<void> >&) const, ListenerNode*, const std::_Placeholder<1>&>::type)[m[K’
+   12 |         subscriber_ = [01;31m[Kthis->create_subscription<std_msgs::msg::String>([m[K
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   13 | [01;31m[K            "my_topic", 10, std::bind(&ListenerNode::listener_callback, this, _1))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/foiegreis/ros2_fndm_ws/src/cpp_pkg/src/listener.cpp:1[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:220:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  220 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:220:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/foiegreis/ros2_fndm_ws/src/cpp_pkg/src/listener.cpp:12:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   12 |         subscriber_ = [01;31m[Kthis->create_subscription<std_msgs::msg::String>([m[K
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   13 | [01;31m[K            "my_topic", 10, std::bind(&ListenerNode::listener_callback, this, _1))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/listener_cpp.dir/build.make:76: CMakeFiles/listener_cpp.dir/src/listener.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/listener_cpp.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 60%] [32m[1mLinking CXX executable simple_node_cpp[0m
+[ 60%] Built target simple_node_cpp
+[ 70%] [32m[1mLinking CXX executable sum_client_cpp[0m
+[ 80%] [32m[1mLinking CXX executable sum_server_cpp[0m
+[ 80%] Built target sum_client_cpp
+[ 80%] Built target sum_server_cpp
+[ 90%] [32m[1mLinking CXX executable talker_cpp[0m
+[ 90%] Built target talker_cpp
+gmake: *** [Makefile:146: all] Error 2

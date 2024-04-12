@@ -26,8 +26,6 @@ _colcon_prefix_chain_powershell_source_script "/opt/ros/iron\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/foiegreis/ros2_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/foiegreis/ros2_ws_yolo3d/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/foiegreis/ros2_ws_book/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/foiegreis/my_ros2_ws/src/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/foiegreis/my_ros2_ws/install\local_setup.ps1"
 
 # source this prefix
 $env:COLCON_CURRENT_PREFIX=(Split-Path $PSCommandPath -Parent)

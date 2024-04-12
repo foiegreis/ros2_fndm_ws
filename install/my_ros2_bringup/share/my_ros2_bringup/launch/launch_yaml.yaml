@@ -1,0 +1,33 @@
+# launch_yaml.yaml
+
+launch:
+
+# args that can be set from the command line or a default will be used
+- arg:
+    name: "param1"
+    default: "value1"
+- arg:
+    name: "param2"
+    default: "value2"
+
+
+# start the sum_server_cpp node in the ns1 namespace
+- node:
+    pkg: ""
+    exec: ""
+    name: ""
+    namespace: ""
+
+# start the sum_client_py node in the ns1 namespace and use args to set parameters
+- node:
+    pkg: ""
+    exec: "$"
+    name: ""
+    namespace: ""
+    param:
+    -
+      name: "param1"
+      value: "$(var param1)"
+    -
+      name: "param2"
+      value: "$(var param2)"

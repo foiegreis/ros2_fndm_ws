@@ -1,0 +1,8 @@
+# goal
+int64 order
+---
+# result
+int64[] result_sequence
+---
+# feedback
+int64[] partial_sequence

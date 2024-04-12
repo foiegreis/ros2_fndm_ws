@@ -1,23 +1,25 @@
 #include "rclcpp/rclcpp.hpp"
-#include "std_msgs/msg/string.hpp"
+#include "example_interfaces/msg/string.hpp"
 using std::placeholders::_1;
 
 class ListenerNode : public rclcpp::Node
 {
 public:
     ListenerNode() : Node("listener_cpp")
-    {
-        subscriber_ = this->create_subscription<std_msgs::msg::String>(
+    {   
+        RCLCPP_INFO(this->get_logger(), "Listener C++ node has been created");
+
+        subscriber_ = this->create_subscription<example_interfaces::msg::String>(
             "my_topic", 10, std::bind(&ListenerNode::listener_callback, this, _1));
         
     }
 private:
-    void listener_callback(const std_msgs::msg::String & msg) const
+    void listener_callback(const example_interfaces::msg::String & msg) const
     {
         RCLCPP_INFO(this->get_logger(), "The message is '%s': ", msg.data.c_str());
     }
 
-    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscriber_;
+    rclcpp::Subscription<example_interfaces::msg::String>::SharedPtr subscriber_;
 };
 
 int main(int argc, char **argv){

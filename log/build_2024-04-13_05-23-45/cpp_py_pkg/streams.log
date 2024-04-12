@@ -1,0 +1,78 @@
+[0.682s] Invoking command in '/home/foiegreis/ros2_fndm_ws/build/cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/ros2_fndm_ws/install/py_actions:/home/foiegreis/ros2_fndm_ws/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake /home/foiegreis/ros2_fndm_ws/src/cpp_py_pkg -DCMAKE_INSTALL_PREFIX=/home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg
+[0.737s] -- The C compiler identification is GNU 11.4.0
+[0.805s] -- The CXX compiler identification is GNU 11.4.0
+[0.812s] -- Detecting C compiler ABI info
+[0.880s] -- Detecting C compiler ABI info - done
+[0.896s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.896s] -- Detecting C compile features
+[0.896s] -- Detecting C compile features - done
+[0.901s] -- Detecting CXX compiler ABI info
+[0.987s] -- Detecting CXX compiler ABI info - done
+[0.996s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.996s] -- Detecting CXX compile features
+[0.997s] -- Detecting CXX compile features - done
+[1.001s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.204s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.325s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[1.397s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.415s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.442s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.471s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.672s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.677s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.798s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.830s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.881s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.124s] -- Found rclpy: 4.1.4 (/opt/ros/iron/share/rclpy/cmake)
+[2.337s] -- Configuring done
+[2.355s] -- Generating done
+[2.357s] -- Build files have been written to: /home/foiegreis/ros2_fndm_ws/build/cpp_py_pkg
+[2.368s] Invoked command in '/home/foiegreis/ros2_fndm_ws/build/cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/ros2_fndm_ws/install/py_actions:/home/foiegreis/ros2_fndm_ws/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake /home/foiegreis/ros2_fndm_ws/src/cpp_py_pkg -DCMAKE_INSTALL_PREFIX=/home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg
+[2.371s] Invoking command in '/home/foiegreis/ros2_fndm_ws/build/cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/ros2_fndm_ws/install/py_actions:/home/foiegreis/ros2_fndm_ws/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --build /home/foiegreis/ros2_fndm_ws/build/cpp_py_pkg -- -j12 -l12
+[2.439s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_node_cpp.dir/src/simple_node.cpp.o[0m
+[2.454s] [ 50%] Built target ament_cmake_python_copy_cpp_py_pkg
+[3.198s] running egg_info
+[3.199s] creating cpp_py_pkg.egg-info
+[3.199s] writing cpp_py_pkg.egg-info/PKG-INFO
+[3.199s] writing dependency_links to cpp_py_pkg.egg-info/dependency_links.txt
+[3.200s] writing top-level names to cpp_py_pkg.egg-info/top_level.txt
+[3.200s] writing manifest file 'cpp_py_pkg.egg-info/SOURCES.txt'
+[3.205s] reading manifest file 'cpp_py_pkg.egg-info/SOURCES.txt'
+[3.206s] writing manifest file 'cpp_py_pkg.egg-info/SOURCES.txt'
+[3.263s] [ 50%] Built target ament_cmake_python_build_cpp_py_pkg_egg
+[9.446s] [100%] [32m[1mLinking CXX executable simple_node_cpp[0m
+[9.612s] [100%] Built target simple_node_cpp
+[9.625s] Invoked command in '/home/foiegreis/ros2_fndm_ws/build/cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/ros2_fndm_ws/install/py_actions:/home/foiegreis/ros2_fndm_ws/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --build /home/foiegreis/ros2_fndm_ws/build/cpp_py_pkg -- -j12 -l12
+[9.665s] Invoking command in '/home/foiegreis/ros2_fndm_ws/build/cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/ros2_fndm_ws/install/py_actions:/home/foiegreis/ros2_fndm_ws/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --install /home/foiegreis/ros2_fndm_ws/build/cpp_py_pkg
+[9.673s] -- Install configuration: ""
+[9.673s] -- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/lib/cpp_py_pkg/simple_node_cpp
+[9.674s] -- Set runtime path of "/home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/lib/cpp_py_pkg/simple_node_cpp" to ""
+[9.674s] -- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/share/cpp_py_pkg/environment/pythonpath.sh
+[9.674s] -- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/share/cpp_py_pkg/environment/pythonpath.dsv
+[9.675s] -- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/lib/python3.10/site-packages/cpp_py_pkg-0.0.0-py3.10.egg-info
+[9.675s] -- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/lib/python3.10/site-packages/cpp_py_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+[9.675s] -- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/lib/python3.10/site-packages/cpp_py_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.675s] -- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/lib/python3.10/site-packages/cpp_py_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.675s] -- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/lib/python3.10/site-packages/cpp_py_pkg-0.0.0-py3.10.egg-info/top_level.txt
+[9.675s] -- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/lib/python3.10/site-packages/cpp_py_pkg
+[9.675s] -- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/lib/python3.10/site-packages/cpp_py_pkg/__init__.py
+[9.714s] Listing '/home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/lib/python3.10/site-packages/cpp_py_pkg'...
+[9.714s] Compiling '/home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/lib/python3.10/site-packages/cpp_py_pkg/__init__.py'...
+[9.718s] -- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/lib/cpp_py_pkg/simple_node.py
+[9.718s] -- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_py_pkg
+[9.718s] -- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_py_pkg
+[9.719s] -- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/share/cpp_py_pkg/environment/ament_prefix_path.sh
+[9.719s] -- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/share/cpp_py_pkg/environment/ament_prefix_path.dsv
+[9.719s] -- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/share/cpp_py_pkg/environment/path.sh
+[9.719s] -- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/share/cpp_py_pkg/environment/path.dsv
+[9.719s] -- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/share/cpp_py_pkg/local_setup.bash
+[9.719s] -- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/share/cpp_py_pkg/local_setup.sh
+[9.719s] -- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/share/cpp_py_pkg/local_setup.zsh
+[9.719s] -- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/share/cpp_py_pkg/local_setup.dsv
+[9.720s] -- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/share/cpp_py_pkg/package.dsv
+[9.720s] -- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/share/ament_index/resource_index/packages/cpp_py_pkg
+[9.720s] -- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/share/cpp_py_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.720s] -- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/share/cpp_py_pkg/cmake/cpp_py_pkgConfig.cmake
+[9.720s] -- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/share/cpp_py_pkg/cmake/cpp_py_pkgConfig-version.cmake
+[9.720s] -- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/share/cpp_py_pkg/package.xml
+[9.723s] Invoked command in '/home/foiegreis/ros2_fndm_ws/build/cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foiegreis/ros2_fndm_ws/install/py_actions:/home/foiegreis/ros2_fndm_ws/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron /usr/bin/cmake --install /home/foiegreis/ros2_fndm_ws/build/cpp_py_pkg
