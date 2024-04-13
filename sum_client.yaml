@@ -1,0 +1,7 @@
+/sum_client_node:
+  ros__parameters:
+    a: 9
+    b: 7
+    start_type_description_service: true
+    use_sim_time: false
+
