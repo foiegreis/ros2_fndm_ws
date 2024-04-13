@@ -8,17 +8,23 @@ from functools import partial
 class SumClientNode(Node):
     def __init__(self):
         super().__init__('sum_client_node')
-        self.get_logger().info('Sum client node has been created')
+        self.get_logger().info('Sum Client Python node has been created')
 
-        # declare parameters for AddTwoInts
+        #Parameters for AddTwoInts
+
+        #ROS2 Part 6 -----------------------------------
         #a_ = 6
         #b_ = 7
-        self.declare_parameter('a', 0)
-        self.declare_parameter('b', 0)
+
+        #ROS2 Part 7 ------------------------------------
+        # declare parameters
+        self.declare_parameter('a', 0) #default
+        self.declare_parameter('b', 0) #default
         
         #get parameters
         a_ = self.get_parameter('a').value
         b_ = self.get_parameter('b').value
+        #-----------------------------------
         
         self.call_sum_server(a_, b_)
     

@@ -14,7 +14,11 @@ py_pkg/simple_node.py
 py_pkg/sum_client.py
 py_pkg/sum_server.py
 py_pkg/talker.py
+py_pkg.egg-info/PKG-INFO
+py_pkg.egg-info/SOURCES.txt
+py_pkg.egg-info/dependency_links.txt
+py_pkg.egg-info/entry_points.txt
+py_pkg.egg-info/requires.txt
+py_pkg.egg-info/top_level.txt
+py_pkg.egg-info/zip-safe
 resource/py_pkg
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

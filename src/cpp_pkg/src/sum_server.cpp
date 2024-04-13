@@ -13,7 +13,7 @@ public:
         server_ = this->create_service<example_interfaces::srv::AddTwoInts>(
             "sum_service", std::bind(&SumServerNode::SumServiceCallback, this, _1, _2));
 
-        RCLCPP_INFO(this->get_logger(), "Service server has been created");
+        RCLCPP_INFO(this->get_logger(), "Service server C++ node has been created");
     }
 
 private:

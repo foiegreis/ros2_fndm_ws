@@ -6,6 +6,15 @@ class SumClientNode : public rclcpp::Node
 public: 
     SumClientNode() : Node("sum_client_node")
     {   
+        RCLCPP_INFO(this->get_logger(), "Service client C++ node has been created");
+
+        //Parameters for AddTwoInts
+
+        //ROS2 Part 6 -------------------------------------
+        //a_ = 4;
+        //b_ = 7;
+
+        //ROS2 Part 7 --------------------------------------
         //declare parameters
         this->declare_parameter<int>("a", 0);
         this->declare_parameter<int>("b", 0);
@@ -13,6 +22,7 @@ public:
         //get parameters
         this->get_parameter("a", a_);
         this->get_parameter("b", b_);
+        //---------------------------------------------------
 
         threads_.push_back(std::thread(std::bind(&SumClientNode::CallSumServer, this, a_, b_)));
     }
