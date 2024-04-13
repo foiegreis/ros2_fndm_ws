@@ -10,14 +10,14 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclcpp_action REQUIRED)
 find_package(rclcpp_components REQUIRED)
-find_package(my_ros2_interface REQUIRED)
+find_package(ros2_fndm_interface REQUIRED)
 
 # set dependencies
 set(dependencies
 rclcpp
 rclcpp_action
 rclcpp_components
-my_ros2_interface
+ros2_fndm_interface
 )
 
 #include directories

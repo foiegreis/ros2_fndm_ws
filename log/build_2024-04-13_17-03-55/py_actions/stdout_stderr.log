@@ -1,0 +1,35 @@
+running egg_info
+writing ../../build/py_actions/py_actions.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_actions/py_actions.egg-info/dependency_links.txt
+writing entry points to ../../build/py_actions/py_actions.egg-info/entry_points.txt
+writing requirements to ../../build/py_actions/py_actions.egg-info/requires.txt
+writing top-level names to ../../build/py_actions/py_actions.egg-info/top_level.txt
+reading manifest file '../../build/py_actions/py_actions.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_actions/py_actions.egg-info/SOURCES.txt'
+running build
+running build_py
+copying py_actions/fibonacci_server.py -> /home/foiegreis/ros2_fndm_ws/build/py_actions/build/lib/py_actions
+copying py_actions/fibonacci_client.py -> /home/foiegreis/ros2_fndm_ws/build/py_actions/build/lib/py_actions
+copying py_actions/fibonacci_cancel_server.py -> /home/foiegreis/ros2_fndm_ws/build/py_actions/build/lib/py_actions
+copying py_actions/fibonacci_cancel_client.py -> /home/foiegreis/ros2_fndm_ws/build/py_actions/build/lib/py_actions
+running install
+running install_lib
+copying /home/foiegreis/ros2_fndm_ws/build/py_actions/build/lib/py_actions/fibonacci_server.py -> /home/foiegreis/ros2_fndm_ws/install/py_actions/lib/python3.10/site-packages/py_actions
+copying /home/foiegreis/ros2_fndm_ws/build/py_actions/build/lib/py_actions/fibonacci_client.py -> /home/foiegreis/ros2_fndm_ws/install/py_actions/lib/python3.10/site-packages/py_actions
+copying /home/foiegreis/ros2_fndm_ws/build/py_actions/build/lib/py_actions/fibonacci_cancel_server.py -> /home/foiegreis/ros2_fndm_ws/install/py_actions/lib/python3.10/site-packages/py_actions
+copying /home/foiegreis/ros2_fndm_ws/build/py_actions/build/lib/py_actions/fibonacci_cancel_client.py -> /home/foiegreis/ros2_fndm_ws/install/py_actions/lib/python3.10/site-packages/py_actions
+byte-compiling /home/foiegreis/ros2_fndm_ws/install/py_actions/lib/python3.10/site-packages/py_actions/fibonacci_server.py to fibonacci_server.cpython-310.pyc
+byte-compiling /home/foiegreis/ros2_fndm_ws/install/py_actions/lib/python3.10/site-packages/py_actions/fibonacci_client.py to fibonacci_client.cpython-310.pyc
+byte-compiling /home/foiegreis/ros2_fndm_ws/install/py_actions/lib/python3.10/site-packages/py_actions/fibonacci_cancel_server.py to fibonacci_cancel_server.cpython-310.pyc
+byte-compiling /home/foiegreis/ros2_fndm_ws/install/py_actions/lib/python3.10/site-packages/py_actions/fibonacci_cancel_client.py to fibonacci_cancel_client.cpython-310.pyc
+running install_data
+copying package.xml -> /home/foiegreis/ros2_fndm_ws/install/py_actions/share/py_actions
+running install_egg_info
+removing '/home/foiegreis/ros2_fndm_ws/install/py_actions/lib/python3.10/site-packages/py_actions-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/py_actions/py_actions.egg-info to /home/foiegreis/ros2_fndm_ws/install/py_actions/lib/python3.10/site-packages/py_actions-0.0.0-py3.10.egg-info
+running install_scripts
+Installing fibonacci_cancel_client script to /home/foiegreis/ros2_fndm_ws/install/py_actions/lib/py_actions
+Installing fibonacci_cancel_server script to /home/foiegreis/ros2_fndm_ws/install/py_actions/lib/py_actions
+Installing fibonacci_client script to /home/foiegreis/ros2_fndm_ws/install/py_actions/lib/py_actions
+Installing fibonacci_server script to /home/foiegreis/ros2_fndm_ws/install/py_actions/lib/py_actions
+writing list of installed files to '/home/foiegreis/ros2_fndm_ws/build/py_actions/install.log'

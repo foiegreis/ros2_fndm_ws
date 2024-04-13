@@ -4,7 +4,7 @@
 #include <string>
 #include <sstream>
 
-#include "my_ros2_interface/action/fibonacci.hpp"
+#include "ros2_fndm_interface/action/fibonacci.hpp"
 
 #include "rclcpp/rclcpp.hpp"
 #include "rclcpp_action/rclcpp_action.hpp"
@@ -13,7 +13,7 @@
 class FibonacciActionClient : public rclcpp::Node
 {
 public:
-  using Fibonacci = my_ros2_interface::action::Fibonacci;
+  using Fibonacci = ros2_fndm_interface::action::Fibonacci;
   using GoalHandleFibonacci = rclcpp_action::ClientGoalHandle<Fibonacci>;
   
 

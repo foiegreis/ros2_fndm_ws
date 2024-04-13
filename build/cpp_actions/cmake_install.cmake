@@ -54,7 +54,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_actions/fibonacci_server")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_actions/fibonacci_server"
-         OLD_RPATH "/opt/ros/iron/lib:/home/foiegreis/ros2_fndm_ws/install/my_ros2_interface/lib:"
+         OLD_RPATH "/opt/ros/iron/lib:/home/foiegreis/ros2_fndm_ws/install/ros2_fndm_interface/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_actions/fibonacci_server")
@@ -74,7 +74,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_actions/fibonacci_client")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_actions/fibonacci_client"
-         OLD_RPATH "/opt/ros/iron/lib:/home/foiegreis/ros2_fndm_ws/install/my_ros2_interface/lib:"
+         OLD_RPATH "/opt/ros/iron/lib:/home/foiegreis/ros2_fndm_ws/install/ros2_fndm_interface/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_actions/fibonacci_client")

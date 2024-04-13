@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ros2_fndm_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_fndm_interface/action/detail/fibonacci__type_support.cpp.o"
+  "CMakeFiles/ros2_fndm_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_fndm_interface/action/detail/fibonacci__type_support.cpp.o.d"
+  "CMakeFiles/ros2_fndm_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_fndm_interface/msg/detail/student__type_support.cpp.o"
+  "CMakeFiles/ros2_fndm_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_fndm_interface/msg/detail/student__type_support.cpp.o.d"
+  "CMakeFiles/ros2_fndm_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_fndm_interface/srv/detail/grade_point_average__type_support.cpp.o"
+  "CMakeFiles/ros2_fndm_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_fndm_interface/srv/detail/grade_point_average__type_support.cpp.o.d"
+  "libros2_fndm_interface__rosidl_typesupport_introspection_cpp.pdb"
+  "libros2_fndm_interface__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/ros2_fndm_interface/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/ros2_fndm_interface/action/detail/fibonacci__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/ros2_fndm_interface/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/ros2_fndm_interface/msg/detail/student__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/ros2_fndm_interface/srv/detail/grade_point_average__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/ros2_fndm_interface/srv/detail/grade_point_average__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/ros2_fndm_interface__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

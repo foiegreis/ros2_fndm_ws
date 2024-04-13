@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros2_fndm_interface/srv/GradePointAverage.srv
+// generated code does not contain a copyright notice
+
+
+module ros2_fndm_interface {
+  module srv {
+    struct GradePointAverage_Request {
+      int64 grade_1;
+
+      int64 grade_2;
+
+      int64 grade_3;
+    };
+    struct GradePointAverage_Response {
+      double gpa;
+    };
+  };
+};

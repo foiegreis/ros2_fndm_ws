@@ -1,8 +1,0 @@
-{
-  "package_name": "my_ros2_interface",
-  "non_idl_tuples": [
-    "/home/foiegreis/ros2_fndm_ws/src/ros2_fndm_interface:msg/AddressBook.msg",
-    "/home/foiegreis/ros2_fndm_ws/src/ros2_fndm_interface:srv/AddThreeInts.srv",
-    "/home/foiegreis/ros2_fndm_ws/src/ros2_fndm_interface:action/Fibonacci.action"
-  ]
-}

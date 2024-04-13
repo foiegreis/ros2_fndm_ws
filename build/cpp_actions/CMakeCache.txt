@@ -269,7 +269,7 @@ SITE:STRING=gre-blade
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/home/foiegreis/ros2_fndm_ws/install/my_ros2_interface/lib/libmy_ros2_interface__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/home/foiegreis/ros2_fndm_ws/install/ros2_fndm_interface/lib/libros2_fndm_interface__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for action_msgs.
 action_msgs_DIR:PATH=/opt/ros/iron/share/action_msgs/cmake
@@ -362,7 +362,7 @@ foonathan_memory_DIR:PATH=/opt/ros/iron/lib/foonathan_memory/cmake
 libstatistics_collector_DIR:PATH=/opt/ros/iron/share/libstatistics_collector/cmake
 
 //The directory containing a CMake configuration file for my_ros2_interface.
-my_ros2_interface_DIR:PATH=/home/foiegreis/ros2_fndm_ws/install/my_ros2_interface/share/my_ros2_interface/cmake
+my_ros2_interface_DIR:PATH=my_ros2_interface_DIR-NOTFOUND
 
 //Path to a library.
 pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
@@ -417,6 +417,9 @@ rmw_implementation_DIR:PATH=/opt/ros/iron/share/rmw_implementation/cmake
 
 //The directory containing a CMake configuration file for rmw_implementation_cmake.
 rmw_implementation_cmake_DIR:PATH=/opt/ros/iron/share/rmw_implementation_cmake/cmake
+
+//The directory containing a CMake configuration file for ros2_fndm_interface.
+ros2_fndm_interface_DIR:PATH=/home/foiegreis/ros2_fndm_ws/install/ros2_fndm_interface/share/ros2_fndm_interface/cmake
 
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/iron/share/rosgraph_msgs/cmake

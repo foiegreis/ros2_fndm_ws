@@ -2,7 +2,7 @@
 
 import rclpy
 from rclpy.node import Node
-from my_ros2_interface.action import Fibonacci
+from ros2_fndm_interface.action import Fibonacci
 from rclpy.action import ActionClient
 from rclpy.action.client import ClientGoalHandle
 

@@ -1,2 +1,2 @@
 # generated from colcon_core/shell/template/command_prefix.sh.em
-. "/home/foiegreis/ros2_fndm_ws/install/my_ros2_interface/share/my_ros2_interface/package.sh"
+. "/home/foiegreis/ros2_fndm_ws/install/ros2_fndm_interface/share/ros2_fndm_interface/package.sh"

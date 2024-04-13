@@ -1,0 +1,15 @@
+{
+  "package_name": "ros2_fndm_interface",
+  "output_dir": "/home/foiegreis/ros2_fndm_ws/build/ros2_fndm_interface/rosidl_generator_type_description/ros2_fndm_interface",
+  "idl_tuples": [
+    "/home/foiegreis/ros2_fndm_ws/build/ros2_fndm_interface/rosidl_adapter/ros2_fndm_interface:msg/Student.idl",
+    "/home/foiegreis/ros2_fndm_ws/build/ros2_fndm_interface/rosidl_adapter/ros2_fndm_interface:srv/GradePointAverage.idl",
+    "/home/foiegreis/ros2_fndm_ws/build/ros2_fndm_interface/rosidl_adapter/ros2_fndm_interface:action/Fibonacci.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/iron/share/service_msgs",
+    "builtin_interfaces:/opt/ros/iron/share/builtin_interfaces",
+    "action_msgs:/opt/ros/iron/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/iron/share/unique_identifier_msgs"
+  ]
+}

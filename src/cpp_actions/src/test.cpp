@@ -1,5 +1,5 @@
 #include "rclcpp/rclcpp.hpp"
-#include "my_ros2_interface/action/fibonacci.hpp"
+#include "ros2_fndm_interface/action/fibonacci.hpp"
 #include "rclcpp_action/rclcpp_action.hpp"
 #include "rclcpp_components/register_node_macro.hpp"
 
@@ -11,7 +11,7 @@
 class FibonacciServerNode : public rclcpp::Node
 {
 public:
-    using Fibonacci = my_ros2_interface::action::Fibonacci;
+    using Fibonacci = ros2_fndm_interface::action::Fibonacci;
     using GoalHandle = rclcpp_action::ServerGoalHandle<Fibonacci>;
 
     explicit FibonacciServerNode(const rclcpp::NodeOptions & options = rclcpp::NodeOptions()) : Node("fibonacci_server_node", options)

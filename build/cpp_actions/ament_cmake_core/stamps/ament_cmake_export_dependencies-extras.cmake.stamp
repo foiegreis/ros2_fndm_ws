@@ -1,6 +1,6 @@
 # generated from ament_cmake_export_dependencies/cmake/ament_cmake_export_dependencies-extras.cmake.in
 
-set(_exported_dependencies "rclcpp;rclcpp_action;rclcpp_components;my_ros2_interface")
+set(_exported_dependencies "rclcpp;rclcpp_action;rclcpp_components;ros2_fndm_interface")
 
 find_package(ament_cmake_libraries QUIET REQUIRED)
 

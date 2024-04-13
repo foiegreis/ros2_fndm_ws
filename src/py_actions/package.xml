@@ -4,11 +4,11 @@
   <name>py_actions</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="greta.russi@gmail.com">foiegreis</maintainer>
+  <maintainer email="roboticsunveiled@gmail.com">foiegreis</maintainer>
   <license>TODO: License declaration</license>
 
   <depend>rclpy</depend>
-  <depend>my_ros2_interface</depend>
+  <depend>ros2_fndm_interface</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

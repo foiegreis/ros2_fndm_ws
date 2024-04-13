@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ros2_fndm_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_fndm_interface/action/detail/fibonacci__type_support.c.o"
+  "CMakeFiles/ros2_fndm_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_fndm_interface/action/detail/fibonacci__type_support.c.o.d"
+  "CMakeFiles/ros2_fndm_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_fndm_interface/msg/detail/student__type_support.c.o"
+  "CMakeFiles/ros2_fndm_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_fndm_interface/msg/detail/student__type_support.c.o.d"
+  "CMakeFiles/ros2_fndm_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_fndm_interface/srv/detail/grade_point_average__type_support.c.o"
+  "CMakeFiles/ros2_fndm_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_fndm_interface/srv/detail/grade_point_average__type_support.c.o.d"
+  "libros2_fndm_interface__rosidl_typesupport_introspection_c.pdb"
+  "libros2_fndm_interface__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/ros2_fndm_interface/action/detail/fibonacci__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/ros2_fndm_interface/action/detail/fibonacci__type_support.c"
+  "rosidl_typesupport_introspection_c/ros2_fndm_interface/msg/detail/student__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/ros2_fndm_interface/msg/detail/student__type_support.c"
+  "rosidl_typesupport_introspection_c/ros2_fndm_interface/srv/detail/grade_point_average__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/ros2_fndm_interface/srv/detail/grade_point_average__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/ros2_fndm_interface__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

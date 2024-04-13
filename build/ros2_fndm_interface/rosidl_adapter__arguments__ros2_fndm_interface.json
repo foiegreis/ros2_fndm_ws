@@ -1,0 +1,8 @@
+{
+  "package_name": "ros2_fndm_interface",
+  "non_idl_tuples": [
+    "/home/foiegreis/ros2_fndm_ws/src/ros2_fndm_interface:msg/Student.msg",
+    "/home/foiegreis/ros2_fndm_ws/src/ros2_fndm_interface:srv/GradePointAverage.srv",
+    "/home/foiegreis/ros2_fndm_ws/src/ros2_fndm_interface:action/Fibonacci.action"
+  ]
+}
