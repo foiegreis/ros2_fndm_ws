@@ -1,0 +1,17 @@
+<!-- sum_app_launch.xml -->
+
+<launch>
+
+    <!-- args that can be set from the command line or a default will be used -->
+    <arg name="a" default="4" />
+    <arg name="b" default="7" />
+
+    <!-- server node -->
+    <node pkg="cpp_pkg" exec="sum_server_cpp" />
+    <!-- client node -->
+    <node pkg="py_pkg" exec="sum_client_py" >
+        <param name="a" value="$(var a)" />
+        <param name="b" value="$(var b)" />
+    </node>
+
+</launch>

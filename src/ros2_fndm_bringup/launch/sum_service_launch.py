@@ -15,8 +15,8 @@ def generate_launch_description():
     client_node = Node(
         package = 'py_pkg', 
         executable = 'sum_client_py', 
-        parameters = [{'a': 7,
-                       'b': 3}]  
+        parameters = [{'a': 4,
+                       'b': 7}]  
     )
 
     # launch description
