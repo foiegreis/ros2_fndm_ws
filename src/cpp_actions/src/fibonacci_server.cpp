@@ -24,7 +24,7 @@ public:
 
     this->action_server_ = rclcpp_action::create_server<Fibonacci>(
       this,
-      "fibonacci",
+      "fibonacci_action",
       std::bind(&FibonacciActionServer::handle_goal, this, _1, _2),
       std::bind(&FibonacciActionServer::handle_cancel, this, _1),
       std::bind(&FibonacciActionServer::handle_accepted, this, _1));
@@ -80,9 +80,21 @@ private:
       }
       // Update sequence
       sequence.push_back(sequence[i] + sequence[i - 1]);
+      
       // Publish feedback
+
+      std::stringstream ss;
+      ss << "Publish feedback: ";
+      for (size_t i = 0; i < sequence.size(); ++i) {
+          ss << sequence[i];
+          if (i < sequence.size() - 1) {
+            ss << ", ";
+          }}
+
       goal_handle->publish_feedback(feedback);
-      RCLCPP_INFO(this->get_logger(), "Publish feedback");
+      //RCLCPP_INFO(this->get_logger(), "Publish feedback ");
+      RCLCPP_INFO(this->get_logger(), ss.str().c_str());  
+
 
       loop_rate.sleep();
     }

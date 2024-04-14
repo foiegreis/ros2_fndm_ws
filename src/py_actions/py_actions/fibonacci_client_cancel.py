@@ -12,7 +12,7 @@ class FibonacciCancelClientNode(Node):
     def __init__(self):
         super().__init__('fibonacci_cancel_client_node')
 
-        self.action_client_ = ActionClient(self, Fibonacci, 'fibonacci')
+        self.action_client_ = ActionClient(self, Fibonacci, 'fibonacci_action')
 
         # get goal parameter value
         self.declare_parameter('order', 2) # default 2

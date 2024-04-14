@@ -75,7 +75,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Student_messa
   },
   {
     "age",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_UINT8,  // type
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT64,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array

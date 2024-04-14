@@ -26,7 +26,7 @@ typedef struct ros2_fndm_interface__msg__Student
 {
   rosidl_runtime_c__String first_name;
   rosidl_runtime_c__String last_name;
-  uint8_t age;
+  int64_t age;
 } ros2_fndm_interface__msg__Student;
 
 // Struct for a sequence of ros2_fndm_interface__msg__Student.

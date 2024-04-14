@@ -22,10 +22,10 @@ public:
   {
     this->client_ptr_ = rclcpp_action::create_client<Fibonacci>(
       this,
-      "fibonacci");
+      "fibonacci_action");
     
      //declare order parameter
-    this->declare_parameter<int>("order", 2);
+    this->declare_parameter<int>("order", 2); //default 2
 
     //get order parameter
     this->get_parameter("order", order_);

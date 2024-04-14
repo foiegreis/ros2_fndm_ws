@@ -10,7 +10,7 @@ module ros2_fndm_interface {
 
       string last_name;
 
-      uint8 age;
+      int64 age;
     };
   };
 };

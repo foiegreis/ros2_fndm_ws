@@ -40,7 +40,7 @@ struct Student_
     {
       this->first_name = "";
       this->last_name = "";
-      this->age = 0;
+      this->age = 0ll;
     }
   }
 
@@ -53,7 +53,7 @@ struct Student_
     {
       this->first_name = "";
       this->last_name = "";
-      this->age = 0;
+      this->age = 0ll;
     }
   }
 
@@ -65,7 +65,7 @@ struct Student_
     std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
   _last_name_type last_name;
   using _age_type =
-    uint8_t;
+    int64_t;
   _age_type age;
 
   // setters for named parameter idiom
@@ -82,7 +82,7 @@ struct Student_
     return *this;
   }
   Type & set__age(
-    const uint8_t & _arg)
+    const int64_t & _arg)
   {
     this->age = _arg;
     return *this;

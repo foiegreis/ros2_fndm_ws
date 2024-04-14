@@ -8,5 +8,7 @@ ros2_fndm_interface/action/__init__.py
 ros2_fndm_interface/action/_fibonacci.py
 ros2_fndm_interface/msg/__init__.py
 ros2_fndm_interface/msg/_address_book.py
+ros2_fndm_interface/msg/_student.py
 ros2_fndm_interface/srv/__init__.py
 ros2_fndm_interface/srv/_add_three_ints.py
+ros2_fndm_interface/srv/_grade_point_average.py

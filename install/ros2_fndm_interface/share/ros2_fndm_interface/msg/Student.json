@@ -26,7 +26,7 @@
         {
           "name": "age",
           "type": {
-            "type_id": 3,
+            "type_id": 8,
             "capacity": 0,
             "string_capacity": 0,
             "nested_type_name": ""
@@ -40,7 +40,7 @@
   "type_hashes": [
     {
       "type_name": "ros2_fndm_interface/msg/Student",
-      "hash_string": "RIHS01_e2efc2f38e9ff64eacc6bb04dcb8f687e49d8ec9c0f2717cc8aae0a3aff79903"
+      "hash_string": "RIHS01_55c71d80fb65294eeb9ddf3e437b1414beb32f1e8595efea14e59476130593ee"
     }
   ]
 }

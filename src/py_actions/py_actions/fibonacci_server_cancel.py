@@ -13,7 +13,7 @@ class FibonacciServerNode(Node):
     def __init__(self):
         super().__init__('fibonacci_server_node')
 
-        self.action_server_ = ActionServer(self, Fibonacci, 'fibonacci', 
+        self.action_server_ = ActionServer(self, Fibonacci, 'fibonacci_action', 
                                            execute_callback=self.execute_callback,
                                            cancel_callback=self.cancel_callback)
 

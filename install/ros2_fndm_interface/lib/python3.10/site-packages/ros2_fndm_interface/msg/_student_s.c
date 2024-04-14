@@ -89,7 +89,7 @@ bool ros2_fndm_interface__msg__student__convert_from_py(PyObject * _pymsg, void 
       return false;
     }
     assert(PyLong_Check(field));
-    ros_message->age = (uint8_t)PyLong_AsUnsignedLong(field);
+    ros_message->age = PyLong_AsLongLong(field);
     Py_DECREF(field);
   }
 
@@ -150,7 +150,7 @@ PyObject * ros2_fndm_interface__msg__student__convert_to_py(void * raw_ros_messa
   }
   {  // age
     PyObject * field = NULL;
-    field = PyLong_FromUnsignedLong(ros_message->age);
+    field = PyLong_FromLongLong(ros_message->age);
     {
       int rc = PyObject_SetAttrString(_pymessage, "age", field);
       Py_DECREF(field);

@@ -10,8 +10,7 @@ class FibonacciServerNode(Node):
     def __init__(self):
         super().__init__('fibonacci_server_node')
 
-        self.action_server_ = ActionServer(self, Fibonacci, 'fibonacci', 
-                                           execute_callback=self.execute_callback)
+        self.action_server_ = ActionServer(self, Fibonacci, 'fibonacci_action', execute_callback=self.execute_callback)
 
         self.get_logger().info('fibonacci action server has been started')
     
@@ -24,19 +23,13 @@ class FibonacciServerNode(Node):
         # get goal request value
         order = goal_handle.request.order
 
-        # initialize feedback
-        feedback_msg = Fibonacci.Feedback()
-        feedback_msg.partial_sequence = [0, 1]
+        # initialize sequence
+        sequence_ = [0, 1]
 
         # process Fibonacci 
         for i in range(1, order):
 
-            feedback_msg.partial_sequence.append(feedback_msg.partial_sequence[i] + feedback_msg.partial_sequence[i-1])
-
-            self.get_logger().info(f'Feedback: {feedback_msg.partial_sequence}')
-
-            goal_handle.publish_feedback(feedback_msg)
-
+            sequence_.append(sequence_[i] + sequence_[i-1])
             time.sleep(1.0)
 
         # set the goal state as succeeded
@@ -44,7 +37,7 @@ class FibonacciServerNode(Node):
 
         # return the result
         result = Fibonacci.Result()
-        result.result_sequence = feedback_msg.partial_sequence
+        result.result_sequence = sequence_
         
         return result
 

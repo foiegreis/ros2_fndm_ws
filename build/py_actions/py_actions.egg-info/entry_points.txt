@@ -1,6 +1,8 @@
 [console_scripts]
-fibonacci_cancel_client = py_actions.fibonacci_cancel_client:main
-fibonacci_cancel_server = py_actions.fibonacci_cancel_server:main
 fibonacci_client = py_actions.fibonacci_client:main
+fibonacci_client_cancel = py_actions.fibonacci_client_cancel:main
+fibonacci_client_feedback = py_actions.fibonacci_client_feedback:main
 fibonacci_server = py_actions.fibonacci_server:main
+fibonacci_server_cancel = py_actions.fibonacci_server_cancel:main
+fibonacci_server_feedback = py_actions.fibonacci_server_feedback:main
 

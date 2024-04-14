@@ -12,7 +12,7 @@ class FibonacciClientNode(Node):
     def __init__(self):
         super().__init__('fibonacci_client_node')
 
-        self.action_client_ = ActionClient(self, Fibonacci, 'fibonacci')
+        self.action_client_ = ActionClient(self, Fibonacci, 'fibonacci_action')
 
         # get goal parameter value
         self.declare_parameter('order', 2) # default 2
@@ -35,15 +35,8 @@ class FibonacciClientNode(Node):
         # send the goal
         self.get_logger().info(f'sending the goal: {order}')
 
-        # send_goal_async with feedback_callback. It returns future. when future is returned, we can add a callback
-        self.action_client_.send_goal_async(goal, feedback_callback=self.goal_feedback_callback).add_done_callback(self.goal_response_callback)
-
-    
-    def goal_feedback_callback(self, feedback_msg):
-        """gets feedback message from feedback_callback"""
-
-        feedback = feedback_msg.feedback
-        self.get_logger().info(f'Received feedback: {feedback.partial_sequence}')
+        # send_goal_async. It returns future. when future is returned, we can add a callback
+        self.action_client_.send_goal_async(goal).add_done_callback(self.goal_response_callback)
 
 
     def goal_response_callback(self, future):
