@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing py_actions.egg-info/PKG-INFO
+writing dependency_links to py_actions.egg-info/dependency_links.txt
+writing entry points to py_actions.egg-info/entry_points.txt
+writing requirements to py_actions.egg-info/requires.txt
+writing top-level names to py_actions.egg-info/top_level.txt
+reading manifest file 'py_actions.egg-info/SOURCES.txt'
+writing manifest file 'py_actions.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/foiegreis/ros2_fndm_ws/install/py_actions/lib/python3.10/site-packages/py-actions.egg-link (link to .)
+Installing fibonacci_cancel_client script to /home/foiegreis/ros2_fndm_ws/install/py_actions/lib/py_actions
+Installing fibonacci_cancel_server script to /home/foiegreis/ros2_fndm_ws/install/py_actions/lib/py_actions
+Installing fibonacci_client script to /home/foiegreis/ros2_fndm_ws/install/py_actions/lib/py_actions
+Installing fibonacci_server script to /home/foiegreis/ros2_fndm_ws/install/py_actions/lib/py_actions
+
+Installed /home/foiegreis/ros2_fndm_ws/build/py_actions
+running install_data

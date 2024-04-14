@@ -1,0 +1,20 @@
+[1.058s] Invoking command in '/home/foiegreis/ros2_fndm_ws/build/py_actions': CMAKE_PREFIX_PATH=/home/foiegreis/ros2_fndm_ws/install/ros2_fndm_interface:/home/foiegreis/ros2_fndm_ws/install/ros2_fndm_bringup:/home/foiegreis/ros2_fndm_ws/install/cpp_actions:/home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg:/home/foiegreis/ros2_fndm_ws/install/cpp_pkg:/home/foiegreis/ros2_ws_book/install/cpp_pkg:/home/foiegreis/ros2_ws/install/my_bringup:/home/foiegreis/ros2_ws/install/my_interface:/home/foiegreis/ros2_ws/install/my_description:/home/foiegreis/ros2_ws_yolo3d/install/yolo3d:/home/foiegreis/ros2_ws_yolo3d/install/omni_robot_description:/home/foiegreis/ros2_ws_yolo3d/install/omni_control:/home/foiegreis/ros2_ws_yolo3d/install/gazebo_simulation PYTHONPATH=/home/foiegreis/ros2_fndm_ws/build/py_actions/prefix_override:/home/foiegreis/ros2_fndm_ws/install/py_actions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/foiegreis/ros2_fndm_ws/build/py_actions/build --no-deps install_data
+[1.384s] running develop
+[1.629s] running egg_info
+[1.630s] writing py_actions.egg-info/PKG-INFO
+[1.630s] writing dependency_links to py_actions.egg-info/dependency_links.txt
+[1.630s] writing entry points to py_actions.egg-info/entry_points.txt
+[1.630s] writing requirements to py_actions.egg-info/requires.txt
+[1.631s] writing top-level names to py_actions.egg-info/top_level.txt
+[1.632s] reading manifest file 'py_actions.egg-info/SOURCES.txt'
+[1.633s] writing manifest file 'py_actions.egg-info/SOURCES.txt'
+[1.634s] running build_ext
+[1.634s] Creating /home/foiegreis/ros2_fndm_ws/install/py_actions/lib/python3.10/site-packages/py-actions.egg-link (link to .)
+[1.635s] Installing fibonacci_cancel_client script to /home/foiegreis/ros2_fndm_ws/install/py_actions/lib/py_actions
+[1.635s] Installing fibonacci_cancel_server script to /home/foiegreis/ros2_fndm_ws/install/py_actions/lib/py_actions
+[1.635s] Installing fibonacci_client script to /home/foiegreis/ros2_fndm_ws/install/py_actions/lib/py_actions
+[1.635s] Installing fibonacci_server script to /home/foiegreis/ros2_fndm_ws/install/py_actions/lib/py_actions
+[1.635s] 
+[1.635s] Installed /home/foiegreis/ros2_fndm_ws/build/py_actions
+[1.635s] running install_data
+[1.661s] Invoked command in '/home/foiegreis/ros2_fndm_ws/build/py_actions' returned '0': CMAKE_PREFIX_PATH=/home/foiegreis/ros2_fndm_ws/install/ros2_fndm_interface:/home/foiegreis/ros2_fndm_ws/install/ros2_fndm_bringup:/home/foiegreis/ros2_fndm_ws/install/cpp_actions:/home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg:/home/foiegreis/ros2_fndm_ws/install/cpp_pkg:/home/foiegreis/ros2_ws_book/install/cpp_pkg:/home/foiegreis/ros2_ws/install/my_bringup:/home/foiegreis/ros2_ws/install/my_interface:/home/foiegreis/ros2_ws/install/my_description:/home/foiegreis/ros2_ws_yolo3d/install/yolo3d:/home/foiegreis/ros2_ws_yolo3d/install/omni_robot_description:/home/foiegreis/ros2_ws_yolo3d/install/omni_control:/home/foiegreis/ros2_ws_yolo3d/install/gazebo_simulation PYTHONPATH=/home/foiegreis/ros2_fndm_ws/build/py_actions/prefix_override:/home/foiegreis/ros2_fndm_ws/install/py_actions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/foiegreis/ros2_fndm_ws/build/py_actions/build --no-deps install_data

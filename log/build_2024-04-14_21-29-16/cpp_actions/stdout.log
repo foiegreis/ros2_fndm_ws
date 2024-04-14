@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target fibonacci_server[0m
+[35m[1mConsolidate compiler generated dependencies of target fibonacci_client[0m
+[ 50%] Built target fibonacci_client
+[ 75%] [32mBuilding CXX object CMakeFiles/fibonacci_server.dir/src/fibonacci_server.cpp.o[0m
+[100%] [32m[1mLinking CXX executable fibonacci_server[0m
+[100%] Built target fibonacci_server
+-- Install configuration: ""
+-- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/lib/cpp_actions/fibonacci_server
+-- Set runtime path of "/home/foiegreis/ros2_fndm_ws/install/cpp_actions/lib/cpp_actions/fibonacci_server" to ""
+-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/lib/cpp_actions/fibonacci_client
+-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/ament_index/resource_index/package_run_dependencies/cpp_actions
+-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/ament_index/resource_index/parent_prefix_path/cpp_actions
+-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/cpp_actions/environment/ament_prefix_path.sh
+-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/cpp_actions/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/cpp_actions/environment/path.sh
+-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/cpp_actions/environment/path.dsv
+-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/cpp_actions/local_setup.bash
+-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/cpp_actions/local_setup.sh
+-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/cpp_actions/local_setup.zsh
+-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/cpp_actions/local_setup.dsv
+-- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/cpp_actions/package.dsv
+-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/ament_index/resource_index/packages/cpp_actions
+-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/cpp_actions/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/cpp_actions/cmake/cpp_actionsConfig.cmake
+-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/cpp_actions/cmake/cpp_actionsConfig-version.cmake
+-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/cpp_actions/package.xml

@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.000100] (-) JobUnselected: {'identifier': 'cpp_pkg'}
+[0.000126] (-) JobUnselected: {'identifier': 'cpp_py_pkg'}
+[0.000145] (-) JobUnselected: {'identifier': 'py_actions'}
+[0.000161] (-) JobUnselected: {'identifier': 'py_pkg'}
+[0.000175] (-) JobUnselected: {'identifier': 'ros2_fndm_bringup'}
+[0.000193] (-) JobUnselected: {'identifier': 'ros2_fndm_interface'}
+[0.000234] (cpp_actions) JobQueued: {'identifier': 'cpp_actions', 'dependencies': OrderedDict([('ros2_fndm_interface', '/home/foiegreis/ros2_fndm_ws/install/ros2_fndm_interface')])}
+[0.000260] (cpp_actions) JobStarted: {'identifier': 'cpp_actions'}
+[0.099560] (-) TimerEvent: {}
+[0.170814] (cpp_actions) JobProgress: {'identifier': 'cpp_actions', 'progress': 'cmake'}
+[0.171632] (cpp_actions) JobProgress: {'identifier': 'cpp_actions', 'progress': 'build'}
+[0.172173] (cpp_actions) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/foiegreis/ros2_fndm_ws/build/cpp_actions', '--', '-j12', '-l12'], 'cwd': '/home/foiegreis/ros2_fndm_ws/build/cpp_actions', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'foiegreis'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/foiegreis/ros2_fndm_ws/install/ros2_fndm_interface/lib:/home/foiegreis/ros2_fndm_ws/install/my_ros2_interface/lib:/home/foiegreis/ros2_ws/install/my_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/foiegreis'), ('OLDPWD', '/home/foiegreis/ros2_fndm_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2096'), ('SYSTEMD_EXEC_PID', '2510'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '469768'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/foiegreis/ros2_fndm_ws/install:/home/foiegreis/ros2_ws_book/install:/home/foiegreis/ros2_ws_yolo3d/install:/home/foiegreis/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'foiegreis'), ('JOURNAL_STREAM', '8:34256'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'foiegreis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/foiegreis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gre-blade:@/tmp/.ICE-unix/2429,unix/gre-blade:/tmp/.ICE-unix/2429'), ('INVOCATION_ID', 'b762a3fef01d47afb14bbaa61b05e69f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/foiegreis/ros2_fndm_ws/install/ros2_fndm_interface:/home/foiegreis/ros2_fndm_ws/install/ros2_fndm_bringup:/home/foiegreis/ros2_fndm_ws/install/py_actions:/home/foiegreis/ros2_fndm_ws/install/cpp_actions:/home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg:/home/foiegreis/ros2_fndm_ws/install/cpp_pkg:/home/foiegreis/ros2_fndm_ws/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws_book/install/cpp_pkg:/home/foiegreis/ros2_ws/install/my_bringup:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/my_interface:/home/foiegreis/ros2_ws/install/my_description:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/home/foiegreis/ros2_ws_yolo3d/install/yolo3d:/home/foiegreis/ros2_ws_yolo3d/install/omni_robot_description:/home/foiegreis/ros2_ws_yolo3d/install/omni_control:/home/foiegreis/ros2_ws_yolo3d/install/gazebo_simulation:/opt/ros/iron::'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:34c54565-c3f3-4905-9432-fbab8c19fba8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/foiegreis/ros2_fndm_ws/build/cpp_actions'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/foiegreis/ros2_fndm_ws/install/ros2_fndm_interface/lib/python3.10/site-packages:/home/foiegreis/ros2_fndm_ws/build/py_actions:/home/foiegreis/ros2_fndm_ws/install/py_actions/lib/python3.10/site-packages:/home/foiegreis/ros2_fndm_ws/install/my_ros2_interface/lib/python3.10/site-packages:/home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/lib/python3.10/site-packages:/home/foiegreis/ros2_fndm_ws/build/py_pkg:/home/foiegreis/ros2_fndm_ws/install/py_pkg/lib/python3.10/site-packages:/home/foiegreis/ros2_ws_book/install/py_pkg/lib/python3.10/site-packages:/home/foiegreis/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/foiegreis/ros2_ws/install/lab4/lib/python3.10/site-packages:/home/foiegreis/ros2_ws/install/lab3/lib/python3.10/site-packages:/home/foiegreis/ros2_ws/install/my_interface/lib/python3.10/site-packages:/home/foiegreis/ros2_ws/install/lab2/lib/python3.10/site-packages:/home/foiegreis/ros2_ws/install/lab1/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/foiegreis/ros2_fndm_ws/install/ros2_fndm_interface:/home/foiegreis/ros2_fndm_ws/install/ros2_fndm_bringup:/home/foiegreis/ros2_fndm_ws/install/cpp_actions:/home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg:/home/foiegreis/ros2_fndm_ws/install/cpp_pkg:/home/foiegreis/ros2_ws_book/install/cpp_pkg:/home/foiegreis/ros2_ws/install/my_bringup:/home/foiegreis/ros2_ws/install/my_interface:/home/foiegreis/ros2_ws/install/my_description:/home/foiegreis/ros2_ws_yolo3d/install/yolo3d:/home/foiegreis/ros2_ws_yolo3d/install/omni_robot_description:/home/foiegreis/ros2_ws_yolo3d/install/omni_control:/home/foiegreis/ros2_ws_yolo3d/install/gazebo_simulation:/home/foiegreis/ros2_fndm_ws/install/py_actions:/home/foiegreis/ros2_fndm_ws/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron:')]), 'shell': False}
+[0.199689] (-) TimerEvent: {}
+[0.209354] (cpp_actions) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.299780] (-) TimerEvent: {}
+[0.360723] (cpp_actions) StdoutLine: {'line': b'-- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.392732] (cpp_actions) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.399878] (-) TimerEvent: {}
+[0.400844] (cpp_actions) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.414111] (cpp_actions) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.430148] (cpp_actions) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500002] (-) TimerEvent: {}
+[0.593955] (cpp_actions) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[0.595653] (cpp_actions) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600099] (-) TimerEvent: {}
+[0.700319] (-) TimerEvent: {}
+[0.731610] (cpp_actions) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.800440] (-) TimerEvent: {}
+[0.892393] (cpp_actions) StdoutLine: {'line': b'-- Found rclcpp_action: 21.0.5 (/opt/ros/iron/share/rclcpp_action/cmake)\n'}
+[0.900552] (-) TimerEvent: {}
+[1.000778] (-) TimerEvent: {}
+[1.016063] (cpp_actions) StdoutLine: {'line': b'-- Found rclcpp_components: 21.0.5 (/opt/ros/iron/share/rclcpp_components/cmake)\n'}
+[1.100903] (-) TimerEvent: {}
+[1.122399] (cpp_actions) StdoutLine: {'line': b'-- Found ros2_fndm_interface: 0.0.0 (/home/foiegreis/ros2_fndm_ws/install/ros2_fndm_interface/share/ros2_fndm_interface/cmake)\n'}
+[1.201022] (-) TimerEvent: {}
+[1.279640] (cpp_actions) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.297311] (cpp_actions) StdoutLine: {'line': b'-- Generating done\n'}
+[1.298730] (cpp_actions) StdoutLine: {'line': b'-- Build files have been written to: /home/foiegreis/ros2_fndm_ws/build/cpp_actions\n'}
+[1.301123] (-) TimerEvent: {}
+[1.324450] (cpp_actions) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fibonacci_server\x1b[0m\n'}
+[1.326036] (cpp_actions) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fibonacci_client\x1b[0m\n'}
+[1.345539] (cpp_actions) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/fibonacci_server.dir/src/fibonacci_server.cpp.o\x1b[0m\n'}
+[1.346072] (cpp_actions) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/fibonacci_client.dir/src/fibonacci_client.cpp.o\x1b[0m\n'}
+[1.401255] (-) TimerEvent: {}
+[1.501520] (-) TimerEvent: {}
+[1.601761] (-) TimerEvent: {}
+[1.701982] (-) TimerEvent: {}
+[1.802257] (-) TimerEvent: {}
+[1.902539] (-) TimerEvent: {}
+[2.002792] (-) TimerEvent: {}
+[2.103131] (-) TimerEvent: {}
+[2.203396] (-) TimerEvent: {}
+[2.303663] (-) TimerEvent: {}
+[2.403931] (-) TimerEvent: {}
+[2.504175] (-) TimerEvent: {}
+[2.604502] (-) TimerEvent: {}
+[2.704819] (-) TimerEvent: {}
+[2.805164] (-) TimerEvent: {}
+[2.905435] (-) TimerEvent: {}
+[3.005690] (-) TimerEvent: {}
+[3.105965] (-) TimerEvent: {}
+[3.206229] (-) TimerEvent: {}
+[3.306512] (-) TimerEvent: {}
+[3.406752] (-) TimerEvent: {}
+[3.507036] (-) TimerEvent: {}
+[3.607312] (-) TimerEvent: {}
+[3.707612] (-) TimerEvent: {}
+[3.807894] (-) TimerEvent: {}
+[3.908178] (-) TimerEvent: {}
+[4.008463] (-) TimerEvent: {}
+[4.108760] (-) TimerEvent: {}
+[4.209042] (-) TimerEvent: {}
+[4.309413] (-) TimerEvent: {}
+[4.409849] (-) TimerEvent: {}
+[4.510134] (-) TimerEvent: {}
+[4.610375] (-) TimerEvent: {}
+[4.710672] (-) TimerEvent: {}
+[4.810935] (-) TimerEvent: {}
+[4.911223] (-) TimerEvent: {}
+[5.011462] (-) TimerEvent: {}
+[5.111752] (-) TimerEvent: {}
+[5.212037] (-) TimerEvent: {}
+[5.312413] (-) TimerEvent: {}
+[5.412689] (-) TimerEvent: {}
+[5.512973] (-) TimerEvent: {}
+[5.613229] (-) TimerEvent: {}
+[5.713485] (-) TimerEvent: {}
+[5.813765] (-) TimerEvent: {}
+[5.914091] (-) TimerEvent: {}
+[5.979366] (cpp_actions) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable fibonacci_server\x1b[0m\n'}
+[6.014214] (-) TimerEvent: {}
+[6.114442] (-) TimerEvent: {}
+[6.198604] (cpp_actions) StdoutLine: {'line': b'[ 75%] Built target fibonacci_server\n'}
+[6.214538] (-) TimerEvent: {}
+[6.255405] (cpp_actions) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable fibonacci_client\x1b[0m\n'}
+[6.314684] (-) TimerEvent: {}
+[6.415009] (-) TimerEvent: {}
+[6.480482] (cpp_actions) StdoutLine: {'line': b'[100%] Built target fibonacci_client\n'}
+[6.491090] (cpp_actions) CommandEnded: {'returncode': 0}
+[6.515083] (-) TimerEvent: {}
+[6.521493] (cpp_actions) JobProgress: {'identifier': 'cpp_actions', 'progress': 'install'}
+[6.530999] (cpp_actions) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/foiegreis/ros2_fndm_ws/build/cpp_actions'], 'cwd': '/home/foiegreis/ros2_fndm_ws/build/cpp_actions', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'foiegreis'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/foiegreis/ros2_fndm_ws/install/ros2_fndm_interface/lib:/home/foiegreis/ros2_fndm_ws/install/my_ros2_interface/lib:/home/foiegreis/ros2_ws/install/my_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/foiegreis'), ('OLDPWD', '/home/foiegreis/ros2_fndm_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2096'), ('SYSTEMD_EXEC_PID', '2510'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '469768'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/foiegreis/ros2_fndm_ws/install:/home/foiegreis/ros2_ws_book/install:/home/foiegreis/ros2_ws_yolo3d/install:/home/foiegreis/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'foiegreis'), ('JOURNAL_STREAM', '8:34256'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'foiegreis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/foiegreis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gre-blade:@/tmp/.ICE-unix/2429,unix/gre-blade:/tmp/.ICE-unix/2429'), ('INVOCATION_ID', 'b762a3fef01d47afb14bbaa61b05e69f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/foiegreis/ros2_fndm_ws/install/ros2_fndm_interface:/home/foiegreis/ros2_fndm_ws/install/ros2_fndm_bringup:/home/foiegreis/ros2_fndm_ws/install/py_actions:/home/foiegreis/ros2_fndm_ws/install/cpp_actions:/home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg:/home/foiegreis/ros2_fndm_ws/install/cpp_pkg:/home/foiegreis/ros2_fndm_ws/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws_book/install/cpp_pkg:/home/foiegreis/ros2_ws/install/my_bringup:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/my_interface:/home/foiegreis/ros2_ws/install/my_description:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/home/foiegreis/ros2_ws_yolo3d/install/yolo3d:/home/foiegreis/ros2_ws_yolo3d/install/omni_robot_description:/home/foiegreis/ros2_ws_yolo3d/install/omni_control:/home/foiegreis/ros2_ws_yolo3d/install/gazebo_simulation:/opt/ros/iron::'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:34c54565-c3f3-4905-9432-fbab8c19fba8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/foiegreis/ros2_fndm_ws/build/cpp_actions'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/foiegreis/ros2_fndm_ws/install/ros2_fndm_interface/lib/python3.10/site-packages:/home/foiegreis/ros2_fndm_ws/build/py_actions:/home/foiegreis/ros2_fndm_ws/install/py_actions/lib/python3.10/site-packages:/home/foiegreis/ros2_fndm_ws/install/my_ros2_interface/lib/python3.10/site-packages:/home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg/lib/python3.10/site-packages:/home/foiegreis/ros2_fndm_ws/build/py_pkg:/home/foiegreis/ros2_fndm_ws/install/py_pkg/lib/python3.10/site-packages:/home/foiegreis/ros2_ws_book/install/py_pkg/lib/python3.10/site-packages:/home/foiegreis/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/foiegreis/ros2_ws/install/lab4/lib/python3.10/site-packages:/home/foiegreis/ros2_ws/install/lab3/lib/python3.10/site-packages:/home/foiegreis/ros2_ws/install/my_interface/lib/python3.10/site-packages:/home/foiegreis/ros2_ws/install/lab2/lib/python3.10/site-packages:/home/foiegreis/ros2_ws/install/lab1/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/foiegreis/ros2_fndm_ws/install/ros2_fndm_interface:/home/foiegreis/ros2_fndm_ws/install/ros2_fndm_bringup:/home/foiegreis/ros2_fndm_ws/install/cpp_actions:/home/foiegreis/ros2_fndm_ws/install/cpp_py_pkg:/home/foiegreis/ros2_fndm_ws/install/cpp_pkg:/home/foiegreis/ros2_ws_book/install/cpp_pkg:/home/foiegreis/ros2_ws/install/my_bringup:/home/foiegreis/ros2_ws/install/my_interface:/home/foiegreis/ros2_ws/install/my_description:/home/foiegreis/ros2_ws_yolo3d/install/yolo3d:/home/foiegreis/ros2_ws_yolo3d/install/omni_robot_description:/home/foiegreis/ros2_ws_yolo3d/install/omni_control:/home/foiegreis/ros2_ws_yolo3d/install/gazebo_simulation:/home/foiegreis/ros2_fndm_ws/install/py_actions:/home/foiegreis/ros2_fndm_ws/install/py_pkg:/home/foiegreis/ros2_ws_book/install/py_pkg:/home/foiegreis/ros2_ws/install/my_py_pkg:/home/foiegreis/ros2_ws/install/lab4:/home/foiegreis/ros2_ws/install/lab3:/home/foiegreis/ros2_ws/install/lab2:/home/foiegreis/ros2_ws/install/lab1:/opt/ros/iron:')]), 'shell': False}
+[6.538394] (cpp_actions) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.539220] (cpp_actions) StdoutLine: {'line': b'-- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/lib/cpp_actions/fibonacci_server\n'}
+[6.540926] (cpp_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/foiegreis/ros2_fndm_ws/install/cpp_actions/lib/cpp_actions/fibonacci_server" to ""\n'}
+[6.541394] (cpp_actions) StdoutLine: {'line': b'-- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/lib/cpp_actions/fibonacci_client\n'}
+[6.543270] (cpp_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/foiegreis/ros2_fndm_ws/install/cpp_actions/lib/cpp_actions/fibonacci_client" to ""\n'}
+[6.543608] (cpp_actions) StdoutLine: {'line': b'-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/ament_index/resource_index/package_run_dependencies/cpp_actions\n'}
+[6.543699] (cpp_actions) StdoutLine: {'line': b'-- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/ament_index/resource_index/parent_prefix_path/cpp_actions\n'}
+[6.544068] (cpp_actions) StdoutLine: {'line': b'-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/cpp_actions/environment/ament_prefix_path.sh\n'}
+[6.544272] (cpp_actions) StdoutLine: {'line': b'-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/cpp_actions/environment/ament_prefix_path.dsv\n'}
+[6.544513] (cpp_actions) StdoutLine: {'line': b'-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/cpp_actions/environment/path.sh\n'}
+[6.544586] (cpp_actions) StdoutLine: {'line': b'-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/cpp_actions/environment/path.dsv\n'}
+[6.544716] (cpp_actions) StdoutLine: {'line': b'-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/cpp_actions/local_setup.bash\n'}
+[6.545455] (cpp_actions) StdoutLine: {'line': b'-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/cpp_actions/local_setup.sh\n'}
+[6.546327] (cpp_actions) StdoutLine: {'line': b'-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/cpp_actions/local_setup.zsh\n'}
+[6.546761] (cpp_actions) StdoutLine: {'line': b'-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/cpp_actions/local_setup.dsv\n'}
+[6.547169] (cpp_actions) StdoutLine: {'line': b'-- Installing: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/cpp_actions/package.dsv\n'}
+[6.547569] (cpp_actions) StdoutLine: {'line': b'-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/ament_index/resource_index/packages/cpp_actions\n'}
+[6.547967] (cpp_actions) StdoutLine: {'line': b'-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/cpp_actions/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.548396] (cpp_actions) StdoutLine: {'line': b'-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/cpp_actions/cmake/cpp_actionsConfig.cmake\n'}
+[6.548791] (cpp_actions) StdoutLine: {'line': b'-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/cpp_actions/cmake/cpp_actionsConfig-version.cmake\n'}
+[6.549186] (cpp_actions) StdoutLine: {'line': b'-- Up-to-date: /home/foiegreis/ros2_fndm_ws/install/cpp_actions/share/cpp_actions/package.xml\n'}
+[6.551703] (cpp_actions) CommandEnded: {'returncode': 0}
+[6.615181] (-) TimerEvent: {}
+[6.715627] (-) TimerEvent: {}
+[6.816065] (-) TimerEvent: {}
+[6.911990] (cpp_actions) JobEnded: {'identifier': 'cpp_actions', 'rc': 0}
+[6.912687] (-) EventReactorShutdown: {}
