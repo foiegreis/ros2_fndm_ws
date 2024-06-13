@@ -10,6 +10,7 @@ setup.py
 ../../build/py_pkg/py_pkg.egg-info/zip-safe
 py_pkg/__init__.py
 py_pkg/listener.py
+py_pkg/severity_levels.py
 py_pkg/simple_node.py
 py_pkg/sum_client.py
 py_pkg/sum_server.py

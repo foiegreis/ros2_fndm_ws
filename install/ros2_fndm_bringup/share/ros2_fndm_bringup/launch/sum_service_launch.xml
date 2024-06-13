@@ -3,8 +3,8 @@
 <launch>
 
     <!-- args that can be set from the command line or a default will be used -->
-    <arg name="a" default="7" />
-    <arg name="b" default="3" />
+    <arg name="a" default="4" />
+    <arg name="b" default="7" />
 
     <!-- server node -->
     <node pkg="cpp_pkg" exec="sum_server_cpp" />

@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "ros2_fndm_interface/srv/detail/grade_point_average__functions.h"
 #include "ros2_fndm_interface/srv/detail/grade_point_average__type_support.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "ros2_fndm_interface/srv/detail/grade_point_average__struct.h"
+#include "ros2_fndm_interface/srv/detail/grade_point_average__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

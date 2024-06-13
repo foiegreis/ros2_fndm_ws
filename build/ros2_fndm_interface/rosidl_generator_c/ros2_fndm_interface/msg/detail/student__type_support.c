@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "ros2_fndm_interface/msg/detail/student__type_support.h"
-#include "ros2_fndm_interface/msg/detail/student__functions.h"
 #include "ros2_fndm_interface/msg/detail/student__struct.h"
+#include "ros2_fndm_interface/msg/detail/student__functions.h"
+#include "ros2_fndm_interface/msg/detail/student__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus

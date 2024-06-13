@@ -71,7 +71,7 @@ class Student(metaclass=Metaclass_Student):
     _fields_and_field_types = {
         'first_name': 'string',
         'last_name': 'string',
-        'age': 'uint8',
+        'age': 'int64',
     }
 
     # This attribute is used to store an rosidl_parser.definition variable
@@ -79,7 +79,7 @@ class Student(metaclass=Metaclass_Student):
     SLOT_TYPES = (
         rosidl_parser.definition.UnboundedString(),  # noqa: E501
         rosidl_parser.definition.UnboundedString(),  # noqa: E501
-        rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int64'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -175,6 +175,6 @@ class Student(metaclass=Metaclass_Student):
             assert \
                 isinstance(value, int), \
                 "The 'age' field must be of type 'int'"
-            assert value >= 0 and value < 256, \
-                "The 'age' field must be an unsigned integer in [0, 255]"
+            assert value >= -9223372036854775808 and value < 9223372036854775808, \
+                "The 'age' field must be an integer in [-9223372036854775808, 9223372036854775807]"
         self._age = value

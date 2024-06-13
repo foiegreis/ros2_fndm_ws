@@ -5,10 +5,10 @@ launch:
 # args that can be set from the command line or a default will be used
 - arg:
     name: "a"
-    default: "7"
+    default: "4"
 - arg:
     name: "b"
-    default: "3"
+    default: "7"
 
 # start the sum_server_cpp node in the ns1 namespace
 - node:
